@@ -1,0 +1,108 @@
+{
+    "customerKey": "02130fcd-1715-4a55-892f-f3d2a55c027d",
+    "contentType": "application/vnd.etmc.email.Message; kind=template",
+    "assetType": {
+        "name": "templatebasedemail",
+        "displayName": "Template-Based Email"
+    },
+    "name": "Test AJ modif d'un template",
+    "description": "",
+    "owner": {
+        "email": "aline.jactin@talan.com",
+        "name": "Aline Jactin"
+    },
+    "createdDate": "2018-11-05T09:52:47.583-06:00",
+    "createdBy": {
+        "email": "aline.jactin@talan.com",
+        "name": "Aline Jactin"
+    },
+    "modifiedDate": "2018-11-05T09:52:47.583-06:00",
+    "modifiedBy": {
+        "email": "aline.jactin@talan.com",
+        "name": "Aline Jactin"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "subjectline": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "preheader": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "html": {
+            "thumbnail": {},
+            "slots": {},
+            "template": {
+                "id": 40066,
+                "assetType": {
+                    "id": 4,
+                    "name": "template",
+                    "displayName": "Template"
+                },
+                "name": "Test AJ Template",
+                "content": "",
+                "meta": {
+                    "contentHash": -1108328803
+                },
+                "slots": {},
+                "modelVersion": 2
+            },
+            "modelVersion": 2
+        },
+        "text": {
+            "thumbnail": {},
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": "html"
+                    }
+                }
+            },
+            "generateFrom": "html",
+            "modelVersion": 2
+        },
+        "viewAsAWebPage": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "forwardHTML": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "thumbnail": {},
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "preheader",
+        "html",
+        "text",
+        "viewAsAWebPage",
+        "subscriptioncenter",
+        "forwardHTML",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            }
+        },
+        "approvals": {
+            "approvalStatus": null
+        },
+        "campaigns": {}
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Test Aline"
+}

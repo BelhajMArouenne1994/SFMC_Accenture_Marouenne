@@ -1,0 +1,28 @@
+{
+    "name": "Retrive DE from SSJS Test",
+    "description": "",
+    "key": "dacf3f41-d4d4-98ae-5393-0707892e0f5c",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2019-05-22T14:32:00",
+        "endDate": "2019-05-22T14:32:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Test_Retrieve_DE",
+                    "displayOrder": 1,
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

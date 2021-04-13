@@ -1,0 +1,11 @@
+{
+    "CreatedDate": "2020-11-05T04:01:12.753",
+    "ModifiedDate": "2020-11-05T04:01:12.753",
+    "ID": "8844",
+    "CustomerKey": "Marwens_List",
+    "ListName": "Marwen's List",
+    "Type": "Private",
+    "Description": "Marwen List for training",
+    "ListClassification": "ExactTargetList",
+    "r__folder_Path": "my lists"
+}

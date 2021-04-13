@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2021-02-10T06:55:52.107",
+    "CustomerKey": "Master_PreferenceCenter_PreferencesList",
+    "Name": "Master_PreferenceCenter_PreferencesList",
+    "Description": "List of all email preferences",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Preference_Name",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "4000",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Priority",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Key",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

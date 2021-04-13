@@ -1,0 +1,101 @@
+{
+    "CreatedDate": "2019-05-15T07:36:53.79",
+    "CustomerKey": "88138638-DF0E-4DC2-9767-1D132CCCCD1B",
+    "Name": "weatherdataextension",
+    "Description": "weatherdataextension",
+    "IsSendable": "true",
+    "IsTestable": "true",
+    "SendableDataExtensionField": {
+        "Name": "id"
+    },
+    "SendableSubscriberField": {
+        "Name": "_SubscriberKey"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "id",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "type",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "effective",
+            "Scale": "0",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "expires",
+            "Scale": "0",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "certainty",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "event",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "response",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "headline",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "200",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "description",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "400",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "shared_dataextension",
+    "r__folder_Path": "Shared Items/Shared Data Extensions"
+}

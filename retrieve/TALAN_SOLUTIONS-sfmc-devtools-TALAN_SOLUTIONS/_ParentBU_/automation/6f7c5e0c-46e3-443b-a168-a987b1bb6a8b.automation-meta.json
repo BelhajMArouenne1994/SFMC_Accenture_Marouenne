@@ -1,0 +1,22 @@
+{
+    "name": "rest call",
+    "description": "",
+    "key": "6f7c5e0c-46e3-443b-a168-a987b1bb6a8b",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Test_Retrieve_DE",
+                    "displayOrder": 1,
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Journey Builder Automations"
+}

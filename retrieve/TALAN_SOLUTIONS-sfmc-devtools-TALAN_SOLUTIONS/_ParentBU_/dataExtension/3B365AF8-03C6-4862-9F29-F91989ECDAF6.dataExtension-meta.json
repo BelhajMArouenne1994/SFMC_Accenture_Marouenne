@@ -1,0 +1,73 @@
+{
+    "CreatedDate": "2020-12-11T10:40:07.477",
+    "CustomerKey": "3B365AF8-03C6-4862-9F29-F91989ECDAF6",
+    "Name": "webinar BtoB email form",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "id",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "255",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Fourniture",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Fourniture 2",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "service",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Service 2",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Service 3",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Service 4",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Interactive Content"
+}

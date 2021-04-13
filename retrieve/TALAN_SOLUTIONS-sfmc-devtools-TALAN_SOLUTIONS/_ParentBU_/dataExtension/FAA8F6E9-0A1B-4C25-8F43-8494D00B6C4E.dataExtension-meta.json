@@ -1,0 +1,68 @@
+{
+    "CreatedDate": "2021-02-17T06:30:41.947",
+    "CustomerKey": "FAA8F6E9-0A1B-4C25-8F43-8494D00B6C4E",
+    "Name": "Update_All_Subscribers_DE",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "FirstName",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Status",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Region_Main_Store",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "250",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Region_Main",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "250",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "ID_Segment",
+            "Scale": "0",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Number"
+        },
+        {
+            "Name": "EmailAddress",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "EmailAddress"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

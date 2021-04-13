@@ -1,0 +1,16 @@
+{
+    "name": "sdfsdf",
+    "customerKey": "749df9d8-f66b-49fa-ab9f-b3588eedb982",
+    "createdDate": "2019-10-18T05:04:49.233",
+    "modifiedDate": "2019-11-18T05:25:14.54",
+    "fileSpec": "%%Year%%.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

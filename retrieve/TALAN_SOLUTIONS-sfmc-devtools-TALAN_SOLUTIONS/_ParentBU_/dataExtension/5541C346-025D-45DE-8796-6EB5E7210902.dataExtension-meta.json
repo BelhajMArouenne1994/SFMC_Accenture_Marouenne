@@ -1,0 +1,57 @@
+{
+    "CreatedDate": "2020-01-09T07:51:23.547",
+    "CustomerKey": "5541C346-025D-45DE-8796-6EB5E7210902",
+    "Name": "sonia",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "false",
+    "SendableDataExtensionField": {
+        "Name": "email"
+    },
+    "SendableSubscriberField": {
+        "Name": "_SubscriberKey"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "prenom",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "nom",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "date",
+            "Scale": "0",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "email",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "EmailAddress"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

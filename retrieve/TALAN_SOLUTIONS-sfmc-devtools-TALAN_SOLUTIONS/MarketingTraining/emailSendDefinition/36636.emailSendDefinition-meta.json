@@ -1,0 +1,55 @@
+{
+    "CreatedDate": "2019-10-09T03:35:27.79",
+    "ModifiedDate": "2019-11-29T07:59:47.897",
+    "CustomerKey": "36636",
+    "Name": "UE_EmailTest",
+    "Description": "This is a user initiated email",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "3671"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": "false",
+    "IsSendLogging": "false",
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "ExclusionList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": "false",
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "1555B521-0D14-4111-8EF0-7BE1FE8A8F5B"
+        },
+        {
+            "List": {
+                "PartnerKey": "",
+                "ID": "346",
+                "ObjectID": ""
+            },
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": "false",
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "12210B4D-7983-43EF-8B44-9A169283AAE4"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "amal.bahrini@talan.com",
+    "EmailSubject": "Here goes %%First Name%% ☄☠",
+    "DynamicEmailSubject": "Here goes %%First Name%% ☄☠",
+    "IsMultipart": "true",
+    "IsWrapped": "true",
+    "DeduplicateByEmail": "true",
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Marketing training Email",
+    "r__assetMessage_Key": "ddd83dc8-7e9d-43b3-8476-4b58ef42f8b8"
+}

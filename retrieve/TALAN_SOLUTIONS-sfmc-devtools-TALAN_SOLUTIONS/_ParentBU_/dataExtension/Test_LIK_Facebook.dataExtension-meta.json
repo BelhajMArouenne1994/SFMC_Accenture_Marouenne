@@ -1,0 +1,24 @@
+{
+    "CreatedDate": "2019-09-25T09:19:06.803",
+    "CustomerKey": "Test_LIK_Facebook",
+    "Name": "Test_LIK_Facebook",
+    "Description": "Test_LIK_Facebook",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Email",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "EmailAddress"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

@@ -1,0 +1,29 @@
+
+
+%%[ var @Json 
+set @Json = ' [{ "emailaddress": "john@example.com", "Region": "West", "State": "California", "City": "San Francisco", "PhoneNumbers": [{ "Type": "Home", "Number": "555-555-1111" }, { "Type": "Cell", "Number": "555-555-2222" }]}, { "emailaddress": "carla@example.com", "Region": "Central", "State": "Indiana", "City": "Indianapolis", "PhoneNumbers": [{ "Type": "Home", "Number": "555-555-4444" }, { "Type": "Cell", "Number": "555-555-5555" }]}]' ]%%
+
+{{.datasource JSONVar type=variable maxRows = 20}}
+{{.data}}
+   { "target" : "@Json" }
+{{/data}}
+   Email Address: {{emailaddress}}
+   Region: {{region}}
+   State: {{STATE}}
+   City: {{JSONVar.City}}
+   {{.datasource JSONPhone type=nested maxRows = 10}}
+   {{.data}}
+      { "target" : "JsonVar.PhoneNumbers" }
+   {{/data}}
+   {{JSONPhone.Type}}: {{JSONPhone.Number}}
+   {{/datasource}}
+{{/datasource}}
+%%=BeginImpressionRegion(1)=%%
+
+<a href="https://limedash.com/shop" alias="Shop">Shop</a> |
+<a href="https://limedash.com/contact" alias="Contact">Contact</a>
+
+%%=EndImpressionRegion(0)=%%
+
+<ctrl:eval >"a".toUpperCase() + "B".toLowerCase()</ctrl:eval>
+

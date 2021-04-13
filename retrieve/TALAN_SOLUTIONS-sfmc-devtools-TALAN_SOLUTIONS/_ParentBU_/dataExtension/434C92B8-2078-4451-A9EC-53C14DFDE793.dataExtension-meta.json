@@ -1,0 +1,69 @@
+{
+    "CreatedDate": "2021-01-07T04:23:02.45",
+    "CustomerKey": "434C92B8-2078-4451-A9EC-53C14DFDE793",
+    "Name": "yy data extensions",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "true",
+    "SendableDataExtensionField": {
+        "Name": "contact Key"
+    },
+    "SendableSubscriberField": {
+        "Name": "_SubscriberKey"
+    },
+    "DataRetentionPeriodLength": "1",
+    "DataRetentionPeriodUnitOfMeasure": "6",
+    "RowBasedRetention": "true",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "contact Key",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "name",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "email",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "gender",
+            "Scale": "0",
+            "DefaultValue": "RAS",
+            "MaxLength": "3",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "birthday",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

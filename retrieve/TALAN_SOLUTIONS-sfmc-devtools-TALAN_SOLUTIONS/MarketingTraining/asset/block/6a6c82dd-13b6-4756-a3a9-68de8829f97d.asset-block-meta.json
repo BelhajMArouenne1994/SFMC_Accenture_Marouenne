@@ -1,0 +1,84 @@
+{
+    "customerKey": "6a6c82dd-13b6-4756-a3a9-68de8829f97d",
+    "assetType": {
+        "name": "dynamicblock",
+        "displayName": "Dynamic Block"
+    },
+    "fileProperties": {
+        "fileName": "gh"
+    },
+    "name": "gh",
+    "owner": {
+        "email": "amal.bahrini@talan.com",
+        "name": "Amal Bahrini"
+    },
+    "createdDate": "2019-11-27T08:46:31.017-06:00",
+    "createdBy": {
+        "email": "amal.bahrini@talan.com",
+        "name": "Amal Bahrini"
+    },
+    "modifiedDate": "2019-11-27T08:46:31.017-06:00",
+    "modifiedBy": {
+        "email": "amal.bahrini@talan.com",
+        "name": "Amal Bahrini"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\">%%[IF (([Email] == \"h\")) THEN]%%\n%%=BeginImpressionRegion(\"__Rule_1__j\")=%%\n<a href=\"%%ftaf_url%%\"><img src=\"http://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\"></a>\n<div id=\"CONTAINER_FB1572<a href=\" %%ftaf_url%%\"=\"\"><img src=\"http://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\">\n<div id=\"CONTAINER_FB1572981171406\">\n<!-- %%[ IF _MessageContext == \"Social\" THEN ]%% --><!--__FBDIV_FB1572981171406__--><!-- %%[ ELSE ]%% --><a id=\"FB1572981171406\" href=\"%%=GetSocialPublishURL('13','FB1572981171406')=%%\" title=\"Facebook Like - Email\" alias=\"Facebook Like - Email\" fb=\"true\"><img src=\"https://image.s10.sfmc-content.com/lib/ffcf14/m/1/social_default_facebooklike_icon.jpg\" border=\"0\" width=\"49\" height=\"24\" style=\"width:49px; height:24px; border:0;\" alt=\"Facebook Like\" title=\"Facebook Like\"></a><!-- %%[ ENDIF ]%% --><!-- {\"id\":\"FB1572981171406\",\"type\":\"facebooklike\",\"url\":\"email\",\"templates\":{\"ogtags\":[{\"property\":\"og:title\",\"content\":\"FBlIKE\"},{\"property\":\"og:image\",\"content\":\"\"<table cellpadding=\"2\" cellspacing=\"0\" width=\"600\" ID=\"Table5\" Border=0><tr><td><font face=\"verdana\" size=\"1\" color=\"#444444\">This email was sent by: <b>%%Member_Busname%%</b><br>%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%<br><br></font></td></tr></table><table cellpadding=\"2\" cellspacing=\"0\" width=\"600\" ID=\"Table5\" Border=0><tr><td><font face=\"verdana\" size=\"1\" color=\"#444444\">This email was sent by: <b>%%Member_Busname%%</b><br>%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%<br><br></font></td></tr></table><a href=\"%%ftaf_url%%\"><img src=\"https://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\"></a>},{\"property\":\"fb:app_id\",\"content\":\"\"},{\"property\":\"og:type\",\"content\":\"article\"},{\"property\":\"og:description\",\"content\":\"\"}],\"fblike\":{\"send\":false,\"layout\":\"standard\",\"show_faces\":true,\"width\":450,\"action\":\"like\",\"font\":\"arial\",\"colorscheme\":\"light\",\"ref\":\"\"}}} -->\n</div>\n<a href=\"%%ftaf_url%%\"><img src=\"http://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\"></a><!-- RegionStart[ contentslot:\"444\", title:\"CDD\"] -->\n<!-- RegionEnd[ contentslot:\"444\"] -->981171406\"&gt;\n<!-- %%[ IF _MessageContext == \"Social\" THEN ]%% --><!--__FBDIV_FB1572981171406__--><!-- %%[ ELSE ]%% --><a id=\"FB1572981171406\" href=\"%%=GetSocialPublishURL('13','FB1572981171406')=%%\" title=\"Facebook Like - Email\" alias=\"Facebook Like - Email\" fb=\"true\"><img src=\"https://image.s10.sfmc-content.com/lib/ffcf14/m/1/social_default_facebooklike_icon.jpg\" border=\"0\" width=\"49\" height=\"24\" style=\"width:49px; height:24px; border:0;\" alt=\"Facebook Like\" title=\"Facebook Like\"></a><!-- %%[ ENDIF ]%% --><!-- {\"id\":\"FB1572981171406\",\"type\":\"facebooklike\",\"url\":\"email\",\"templates\":{\"ogtags\":[{\"property\":\"og:title\",\"content\":\"FBlIKE\"},{\"property\":\"og:image\",\"content\":\"\"},{\"property\":\"fb:app_id\",\"content\":\"\"},{\"property\":\"og:type\",\"content\":\"article\"},{\"property\":\"og:description\",\"content\":\"\"}],\"fblike\":{\"send\":false,\"layout\":\"standard\",\"show_faces\":true,\"width\":450,\"action\":\"like\",\"font\":\"arial\",\"colorscheme\":\"light\",\"ref\":\"\"}}} -->\n</div>\n<a href=\"%%ftaf_url%%\"><img src=\"http://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\"></a><!-- RegionStart[ contentslot:\"444\", title:\"CDD\"] -->\n<!-- RegionEnd[ contentslot:\"444\"] -->\n%%=EndImpressionRegion()=%%\n%%[ELSE]%%\n\n%%[ENDIF]%%</td></tr></table>",
+    "design": "",
+    "superContent": "<div data-marker=\"wrapper\" style=\"\" class=\"stylingblock-content-wrapper\"><div style=\"height: 50px; border: 2px solid #AAAAAA;\">\n\t<div style=\"display: inline-block; vertical-align: middle;\">\n\t\t<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB1WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KAtiABQAAAXRJREFUOBFjYKA1+P//P+Pnjcl27xY5bcVmFxM2QZgYUDPTly0p/d8uzT3IoRO+DyZOFA3UzPxpU9Lml80M/1+2sgK5r3mxaWTBJgjWvCV554+L85xB8mxKrv2MjKKfsanF8AJU89YfFyCaQZo4tSIeYdMMEmNElgBqZvq8JXnl9wvzQpDFOY0zGRjZ+d4AFW/5x8C4ic+5Yz1MHsULn7YkdwNtRtEMUvj97HQQJQLECUzMbG+ANNwAuAs+bMkU/Hl++mOgJDcQYwX/GVmuilcv02dkDPsLUwA3ACYAov9/eKT85czkO9+Od8OFGRmZP4j6zpdh1I/7ChcEMlC8AJfgl33458U5OBcYVP+4/GdoMOqiagYpwIgFqC6234+OwA3gcunT4dFNfQkXQGJgdcH3KxuF///9CVbG5drpxGtReB1JDwoTqwF/H+9UAqnitmtM4LEo34+igxjO66nKxZ/3lNQSoxarms87czOBiQprDKFrAAAKvoXU3GWBGAAAAABJRU5ErkJggg==\" style=\"padding: 17px 8px 12px;\"/>\n\t</div>\n\t<div style=\"display: inline-block; vertical-align: middle;\">\n\t\t<div style=\"font-size: 14px; font-family: Arial, sans-serif; font-weight: bold;\">Dynamic Content</div>\n\t\t<div style=\"font-size: 12px; font-family: Arial, sans-serif;\">If no rules match, this block displays no content to the recipient.</div>\n\t</div>\n</div>\n</div>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        },
+        "options": {
+            "dynamicContent": {
+                "views": {
+                    "html": {
+                        "name": "",
+                        "defaultContent": {},
+                        "dataSource": {
+                            "type": "profileattribute",
+                            "name": "Profile Attributes"
+                        },
+                        "variants": [
+                            {
+                                "name": "Rule 1",
+                                "content": {
+                                    "id": 100668,
+                                    "name": "j",
+                                    "textContent": "<a href=\"%%ftaf_url%%\"><img src=\"http://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\" /></a>\n<div id=\"CONTAINER_FB1572<a href=\"%%ftaf_url%%\"><img src=\"http://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\" /></a>\n<div id=\"CONTAINER_FB1572981171406\">\n<!-- %%[ IF _MessageContext == \"Social\" THEN ]%% --><!--__FBDIV_FB1572981171406__--><!-- %%[ ELSE ]%% --><a id=\"FB1572981171406\" href=\"%%=GetSocialPublishURL('13','FB1572981171406')=%%\" title=\"Facebook Like - Email\" alias=\"Facebook Like - Email\" fb=\"true\"><img src=\"https://image.s10.sfmc-content.com/lib/ffcf14/m/1/social_default_facebooklike_icon.jpg\" border=\"0\" width=\"49\" height=\"24\" style=\"width:49px; height:24px; border:0;\" alt=\"Facebook Like\" title=\"Facebook Like\" /></a><!-- %%[ ENDIF ]%% --><!-- {\"id\":\"FB1572981171406\",\"type\":\"facebooklike\",\"url\":\"email\",\"templates\":{\"ogtags\":[{\"property\":\"og:title\",\"content\":\"FBlIKE\"},{\"property\":\"og:image\",\"content\":\"\"<table cellpadding=\"2\" cellspacing=\"0\" width=\"600\" ID=\"Table5\" Border=0><tr><td><font face=\"verdana\" size=\"1\" color=\"#444444\">This email was sent by: <b>%%Member_Busname%%</b><br>%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%<br><br></font></td></tr></table><table cellpadding=\"2\" cellspacing=\"0\" width=\"600\" ID=\"Table5\" Border=0><tr><td><font face=\"verdana\" size=\"1\" color=\"#444444\">This email was sent by: <b>%%Member_Busname%%</b><br>%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%<br><br></font></td></tr></table><a href=\"%%ftaf_url%%\"><img src=\"https://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\"></a>},{\"property\":\"fb:app_id\",\"content\":\"\"},{\"property\":\"og:type\",\"content\":\"article\"},{\"property\":\"og:description\",\"content\":\"\"}],\"fblike\":{\"send\":false,\"layout\":\"standard\",\"show_faces\":true,\"width\":450,\"action\":\"like\",\"font\":\"arial\",\"colorscheme\":\"light\",\"ref\":\"\"}}} -->\n</div>\n<a href=\"%%ftaf_url%%\"><img src=\"http://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\" /></a><!-- RegionStart[ contentslot:\"444\", title:\"CDD\"] -->\n<!-- RegionEnd[ contentslot:\"444\"] -->981171406\">\n<!-- %%[ IF _MessageContext == \"Social\" THEN ]%% --><!--__FBDIV_FB1572981171406__--><!-- %%[ ELSE ]%% --><a id=\"FB1572981171406\" href=\"%%=GetSocialPublishURL('13','FB1572981171406')=%%\" title=\"Facebook Like - Email\" alias=\"Facebook Like - Email\" fb=\"true\"><img src=\"https://image.s10.sfmc-content.com/lib/ffcf14/m/1/social_default_facebooklike_icon.jpg\" border=\"0\" width=\"49\" height=\"24\" style=\"width:49px; height:24px; border:0;\" alt=\"Facebook Like\" title=\"Facebook Like\" /></a><!-- %%[ ENDIF ]%% --><!-- {\"id\":\"FB1572981171406\",\"type\":\"facebooklike\",\"url\":\"email\",\"templates\":{\"ogtags\":[{\"property\":\"og:title\",\"content\":\"FBlIKE\"},{\"property\":\"og:image\",\"content\":\"\"},{\"property\":\"fb:app_id\",\"content\":\"\"},{\"property\":\"og:type\",\"content\":\"article\"},{\"property\":\"og:description\",\"content\":\"\"}],\"fblike\":{\"send\":false,\"layout\":\"standard\",\"show_faces\":true,\"width\":450,\"action\":\"like\",\"font\":\"arial\",\"colorscheme\":\"light\",\"ref\":\"\"}}} -->\n</div>\n<a href=\"%%ftaf_url%%\"><img src=\"http://www.exacttarget.com/members/newsletters/gfx/forwardafriendicon.gif\" border=\"0\" /></a><!-- RegionStart[ contentslot:\"444\", title:\"CDD\"] -->\n<!-- RegionEnd[ contentslot:\"444\"] -->"
+                                },
+                                "expression": {
+                                    "operand": "AND",
+                                    "conditions": [
+                                        {
+                                            "personalization": "Email",
+                                            "dataType": "text",
+                                            "operator": "Equals",
+                                            "value": "h",
+                                            "name": "Email"
+                                        }
+                                    ]
+                                },
+                                "IRTDefault": "Rule_1__j",
+                                "customIRTName": ""
+                            }
+                        ],
+                        "blockPosition": "",
+                        "defaultContentRuleName": "Default Content"
+                    }
+                }
+            },
+            "blockType": "local-copy",
+            "dataSourceSchema": []
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

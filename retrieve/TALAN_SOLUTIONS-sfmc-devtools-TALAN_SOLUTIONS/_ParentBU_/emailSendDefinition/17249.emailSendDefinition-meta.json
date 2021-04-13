@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2018-07-12T07:31:28.007",
+    "ModifiedDate": "2018-07-12T07:31:28.007",
+    "CustomerKey": "17249",
+    "Name": "Email Espace Parent",
+    "Description": "Email 2",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "178"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": "false",
+    "IsSendLogging": "true",
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "e7788525-c178-e811-a2c6-1402ec8c9ea5",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": "false",
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Vos codes d'accès à l'Espace Parent",
+    "DynamicEmailSubject": "Vos codes d'accès à l'Espace Parent",
+    "IsMultipart": "true",
+    "IsWrapped": "true",
+    "DeduplicateByEmail": "true",
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Email Code Espace Parent",
+    "r__assetMessage_Key": "81247979-beee-4a38-8085-ffb590760886"
+}

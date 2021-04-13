@@ -1,0 +1,41 @@
+{
+    "customerKey": "b27b765a-bae4-46c5-a74d-d2183aaaf08f",
+    "assetType": {
+        "name": "imageblock",
+        "displayName": "Image Block"
+    },
+    "fileProperties": {
+        "fileName": "montre1"
+    },
+    "name": "montre1",
+    "owner": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "createdDate": "2020-11-11T04:43:04.32-06:00",
+    "createdBy": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "modifiedDate": "2020-11-11T04:43:11.18-06:00",
+    "modifiedBy": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" role=\"presentation\"><tr><td align=\"center\"><img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXlUgok6-k3UupSJWkrlVF0WNjHzXUWrzlaA&usqp=CAU\" alt=\"\" width=\"251\" style=\"display: block; padding: 0px; text-align: center; border: 0px solid transparent; height: auto; width: 100%;\"></td></tr></table></td></tr></table>",
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

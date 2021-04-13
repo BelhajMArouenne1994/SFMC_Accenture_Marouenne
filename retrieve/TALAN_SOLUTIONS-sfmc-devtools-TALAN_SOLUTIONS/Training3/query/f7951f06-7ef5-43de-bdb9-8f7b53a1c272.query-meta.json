@@ -1,0 +1,11 @@
+{
+    "name": "Test Activity Query 1",
+    "key": "f7951f06-7ef5-43de-bdb9-8f7b53a1c272",
+    "description": "",
+    "targetKey": "F1180127-3855-421D-AEB3-0C69CC354401",
+    "createdDate": "2020-11-09T07:39:49.867",
+    "modifiedDate": "2020-11-09T07:39:49.867",
+    "targetUpdateTypeName": "Append",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

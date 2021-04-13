@@ -1,0 +1,39 @@
+{
+    "name": "Update Contact_Salesforce Status in SF",
+    "description": "",
+    "key": "0bfb389a-58e3-328b-be4b-7eb17acfafd4",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2021-02-25T00:00:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20790606T080000;INTERVAL=1",
+        "timezoneName": "Romance Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Query ALL Subscribers with Unsubscribed Status",
+                    "displayOrder": 1,
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "Update SF Bounced Contacts",
+                    "displayOrder": 1,
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

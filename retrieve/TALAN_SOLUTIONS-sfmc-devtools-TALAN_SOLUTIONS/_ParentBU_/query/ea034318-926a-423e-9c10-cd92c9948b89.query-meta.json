@@ -1,0 +1,11 @@
+{
+    "name": "Lead",
+    "key": "ea034318-926a-423e-9c10-cd92c9948b89",
+    "description": "",
+    "targetKey": "20ACEBBD-8978-4916-8B90-0766D14B096D",
+    "createdDate": "2020-03-06T08:59:32.387",
+    "modifiedDate": "2020-03-06T09:06:50.06",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

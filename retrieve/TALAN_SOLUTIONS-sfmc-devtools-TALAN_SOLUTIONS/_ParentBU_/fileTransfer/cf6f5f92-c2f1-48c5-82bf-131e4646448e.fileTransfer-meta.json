@@ -1,0 +1,16 @@
+{
+    "name": "tett",
+    "customerKey": "cf6f5f92-c2f1-48c5-82bf-131e4646448e",
+    "createdDate": "2019-05-29T08:29:12.56",
+    "modifiedDate": "2019-05-29T08:29:12.56",
+    "fileSpec": "%%Year%%, %%Month%%, %%Day%%",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

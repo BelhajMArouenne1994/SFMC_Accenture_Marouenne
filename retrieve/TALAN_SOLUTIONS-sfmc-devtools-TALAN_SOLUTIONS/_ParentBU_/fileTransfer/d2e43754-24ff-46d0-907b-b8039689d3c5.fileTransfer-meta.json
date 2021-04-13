@@ -1,0 +1,16 @@
+{
+    "name": "test",
+    "customerKey": "d2e43754-24ff-46d0-907b-b8039689d3c5",
+    "createdDate": "2020-11-11T10:45:33.677",
+    "modifiedDate": "2020-11-11T10:45:33.677",
+    "fileSpec": "%%Year%%, %%Month%%, %%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

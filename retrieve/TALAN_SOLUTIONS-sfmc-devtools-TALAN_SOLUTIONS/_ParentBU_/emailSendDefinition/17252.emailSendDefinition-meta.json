@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2018-07-12T08:27:28.077",
+    "ModifiedDate": "2018-07-12T08:27:28.077",
+    "CustomerKey": "17252",
+    "Name": "Newsletter Bi hebdo",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "178"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": "false",
+    "IsSendLogging": "true",
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "e7788525-c178-e811-a2c6-1402ec8c9ea5",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": "false",
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Nos actualités de Juillet",
+    "DynamicEmailSubject": "Nos actualités de Juillet",
+    "IsMultipart": "true",
+    "IsWrapped": "true",
+    "DeduplicateByEmail": "true",
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Newsletter info bi hebdo 1",
+    "r__assetMessage_Key": "17939931-5a5e-4ef8-a334-82bc7660a384"
+}

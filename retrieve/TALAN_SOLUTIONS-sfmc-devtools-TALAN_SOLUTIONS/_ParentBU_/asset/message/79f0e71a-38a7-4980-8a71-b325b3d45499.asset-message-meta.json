@@ -1,0 +1,98 @@
+{
+    "customerKey": "79f0e71a-38a7-4980-8a71-b325b3d45499",
+    "contentType": "application/vnd.etmc.email.Message; kind=textOnly",
+    "assetType": {
+        "name": "textonlyemail",
+        "displayName": "Text Only Email"
+    },
+    "name": "test-app - 20190517_150215",
+    "description": "test",
+    "owner": {
+        "email": "flora.moreira@talan.com",
+        "name": "Flora Moreira"
+    },
+    "createdDate": "2019-05-17T07:02:24.07-06:00",
+    "createdBy": {
+        "email": "flora.moreira@talan.com",
+        "name": "Flora Moreira"
+    },
+    "modifiedDate": "2019-05-17T07:10:49.857-06:00",
+    "modifiedBy": {
+        "email": "flora.moreira@talan.com",
+        "name": "Flora Moreira"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {},
+    "views": {
+        "subjectline": {
+            "contentType": "application/vnd.etmc.email.View; kind=subjectline",
+            "thumbnail": {},
+            "content": "coucou bienvenu",
+            "meta": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "text": {
+            "thumbnail": {},
+            "availableViews": [],
+            "blocks": {},
+            "slots": {},
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "text",
+        "subscriptioncenter",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            }
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

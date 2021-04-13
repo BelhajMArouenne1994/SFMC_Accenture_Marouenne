@@ -1,0 +1,16 @@
+{
+    "name": "Import Contacts",
+    "customerKey": "bce7c252-1b27-46b4-aef6-ac39c375f834",
+    "createdDate": "2021-03-02T04:37:54.783",
+    "modifiedDate": "2021-03-02T04:37:54.783",
+    "fileSpec": "Contacts_Without_Channel_Address_%%Year%%_%%Month%%_%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

@@ -1,0 +1,51 @@
+{
+    "CreatedDate": "2019-11-19T10:18:02.613",
+    "CustomerKey": "6CD83060-C227-41DD-8713-6E386BAB4A29",
+    "Name": "test",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "true",
+    "SendableDataExtensionField": {
+        "Name": "TestAddress"
+    },
+    "SendableSubscriberField": {
+        "Name": "_SubscriberKey"
+    },
+    "DataRetentionPeriodLength": "30",
+    "DataRetentionPeriodUnitOfMeasure": "3",
+    "RowBasedRetention": "true",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "testName",
+            "Scale": "0",
+            "DefaultValue": "Amal",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "TestMail",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "TestAddress",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

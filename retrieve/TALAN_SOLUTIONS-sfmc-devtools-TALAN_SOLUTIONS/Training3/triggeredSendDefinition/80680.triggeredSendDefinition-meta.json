@@ -1,0 +1,31 @@
+{
+    "CreatedDate": "2020-11-17T07:36:00",
+    "ModifiedDate": "2020-11-17T07:36:00",
+    "CustomerKey": "80680",
+    "Name": "EmailMakhouTriggered",
+    "Description": "EmailMakhouTriggered",
+    "Keyword": "",
+    "SendClassification": {
+        "CustomerKey": "1141"
+    },
+    "FromName": "emna",
+    "FromAddress": "emna.bouali@talan.com",
+    "SuppressTracking": "false",
+    "TriggeredSendType": "Continuous",
+    "TriggeredSendStatus": "New",
+    "AutoAddSubscribers": "true",
+    "AutoUpdateSubscribers": "false",
+    "BatchInterval": "0",
+    "BccEmail": "",
+    "EmailSubject": "welcome",
+    "DynamicEmailSubject": "welcome",
+    "IsMultipart": "false",
+    "IsWrapped": "true",
+    "AllowedSlots": "0",
+    "NewSlotTrigger": "0",
+    "Priority": "4",
+    "r__folder_Path": "Triggered Sends",
+    "r__assetMessage_Name": "welcome ",
+    "r__assetMessage_Key": "08cdd36a-5736-4d02-a88e-94323dc02fab",
+    "r__list_PathName": "my lists/Marwen's List"
+}

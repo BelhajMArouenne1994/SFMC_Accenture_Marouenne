@@ -1,0 +1,72 @@
+{
+    "name": "Newsletter bi hebdomadaire",
+    "description": "Actu crêche",
+    "key": "4a9bc660-965d-c2e5-1a48-feb95b156288",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2018-07-31T00:00:00",
+        "endDate": "2018-07-31T00:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "GMT Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Newsletter Bi hebdo",
+                    "displayOrder": 1,
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "15 Days",
+                    "displayOrder": 1,
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "Newsletter Bi hebdo",
+                    "displayOrder": 1,
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 4,
+            "activities": [
+                {
+                    "name": "15 Days",
+                    "displayOrder": 1,
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 5,
+            "activities": [
+                {
+                    "name": "Newsletter Bi hebdo",
+                    "displayOrder": 1,
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

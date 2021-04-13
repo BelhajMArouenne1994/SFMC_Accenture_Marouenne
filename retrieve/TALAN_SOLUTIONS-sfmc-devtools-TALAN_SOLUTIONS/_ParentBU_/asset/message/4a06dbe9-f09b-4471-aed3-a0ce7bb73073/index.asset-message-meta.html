@@ -1,0 +1,22 @@
+<!--–– Copyright © 2020 Zuzanna Jarczynska http://sfmarketing.cloud ––-->
+<custom name="opencounter" type="tracking"/>
+
+<h2>Update your profile:</h2>
+<form action="%%=RequestParameter('PAGEURL')=%%" method="post">
+    <label>First name: </label><input type="text" name="firstname" value="%%=v(@FirstName)=%%"><br>
+    <label>Last name: </label><input type="text" name="lastname" value="%%=v(@LastName)=%%"><br>
+    <label>Email: </label><input type="text" name="email" value="%%=v(@Email)=%%"><br>
+
+    <h2>Update your subscriptions:</h2>
+
+    <label>Newsletter: </label><input name="newsletter" type="checkbox" %%=v(@Newsletterchk)=%%><br>
+    <label>Events: </label><input name="events" type="checkbox" %%=v(@Eventschk)=%%><br>
+    <label>Offers: </label><input name="offers" type="checkbox" %%=v(@Offerschk)=%%><br>
+    <input name="submitted" type="hidden" value="true"><br>
+    <input type="submit" value="Submit">
+</form>
+<br><br>
+
+<table cellpadding="2" cellspacing="0" width="600" ID="Table5" Border=0><tr><td><font face="verdana" size="1" color="#444444">This email was sent by: <b>%%Member_Busname%%</b><br>%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%<br><br></font></td></tr></table>
+
+<a href="%%profile_center_url%%" alias="Update Profile">Update Profile</a>

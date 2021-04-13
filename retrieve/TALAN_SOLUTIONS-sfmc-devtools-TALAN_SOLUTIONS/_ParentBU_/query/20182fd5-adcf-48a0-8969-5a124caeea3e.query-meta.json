@@ -1,0 +1,11 @@
+{
+    "name": "SF_Contacts_Query",
+    "key": "20182fd5-adcf-48a0-8969-5a124caeea3e",
+    "description": "",
+    "targetKey": "83371DB0-ABA5-4D57-9363-88217335CB30",
+    "createdDate": "2021-02-22T02:31:39.65",
+    "modifiedDate": "2021-03-01T10:10:00.37",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Automation_Test1",
+    "description": "",
+    "key": "e383ff79-4248-6f4d-0eea-1b7704d9d6fe",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2019-11-18T15:17:00",
+        "endDate": "2019-11-18T15:17:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "W. Central Africa Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "UE_EmailTest",
+                    "displayOrder": 1,
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

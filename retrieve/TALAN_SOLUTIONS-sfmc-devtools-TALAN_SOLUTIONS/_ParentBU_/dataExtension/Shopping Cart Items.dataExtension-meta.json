@@ -1,0 +1,63 @@
+{
+    "CreatedDate": "2018-09-11T08:06:06.55",
+    "CustomerKey": "Shopping Cart Items",
+    "Name": "Shopping Cart Items",
+    "Description": "Shopping Cart Items",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "DataRetentionPeriodUnitOfMeasure": "4",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Shopping Cart ID",
+            "DefaultValue": "",
+            "MaxLength": "256",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Product ID",
+            "DefaultValue": "",
+            "MaxLength": "256",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Quantity",
+            "Scale": "2",
+            "DefaultValue": "0",
+            "MaxLength": "18",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Decimal"
+        },
+        {
+            "Name": "Add Date",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Last Update Date",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Is Deleted",
+            "DefaultValue": "false",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Boolean"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Test template Shopping Cart"
+}

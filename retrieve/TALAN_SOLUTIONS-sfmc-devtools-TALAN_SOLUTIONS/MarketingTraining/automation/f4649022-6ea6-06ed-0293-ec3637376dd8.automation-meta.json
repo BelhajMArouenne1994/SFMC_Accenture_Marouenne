@@ -1,0 +1,50 @@
+{
+    "name": "TestImportTransfer",
+    "description": "",
+    "key": "f4649022-6ea6-06ed-0293-ec3637376dd8",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2019-11-18T15:20:00",
+        "endDate": "2019-11-18T15:20:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "W. Central Africa Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "sdfsdf",
+                    "displayOrder": 1,
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "test file",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "UE_EmailTest",
+                    "displayOrder": 1,
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

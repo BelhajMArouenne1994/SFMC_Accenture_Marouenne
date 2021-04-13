@@ -1,0 +1,11 @@
+{
+    "name": "Query ALL Subscribers with Unsubscribed Status",
+    "key": "dd7a187f-f7a6-4b26-9c0f-e069b8e7f4e2",
+    "description": "",
+    "targetKey": "83EE15D1-DC00-4813-89FA-9B3ABE178FA7",
+    "createdDate": "2021-02-24T11:00:49.737",
+    "modifiedDate": "2021-02-24T15:03:57.153",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

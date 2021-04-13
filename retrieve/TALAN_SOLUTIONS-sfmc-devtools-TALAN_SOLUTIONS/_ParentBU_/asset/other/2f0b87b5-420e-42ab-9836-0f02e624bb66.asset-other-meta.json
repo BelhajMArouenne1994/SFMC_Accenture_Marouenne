@@ -1,0 +1,28 @@
+{
+    "customerKey": "2f0b87b5-420e-42ab-9836-0f02e624bb66",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "name": "ampscriptcode",
+    "owner": {
+        "email": "ahmed.derbel@talan.com",
+        "name": "Ahmed Derbel"
+    },
+    "createdDate": "2019-05-29T09:21:14.73-06:00",
+    "createdBy": {
+        "email": "ahmed.derbel@talan.com",
+        "name": "Ahmed Derbel"
+    },
+    "modifiedDate": "2019-05-29T09:21:14.73-06:00",
+    "modifiedBy": {
+        "email": "ahmed.derbel@talan.com",
+        "name": "Ahmed Derbel"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

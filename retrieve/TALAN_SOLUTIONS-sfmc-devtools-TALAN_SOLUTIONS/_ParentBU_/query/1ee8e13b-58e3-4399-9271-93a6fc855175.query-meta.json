@@ -1,0 +1,11 @@
+{
+    "name": "MarwenTestActivity",
+    "key": "1ee8e13b-58e3-4399-9271-93a6fc855175",
+    "description": "",
+    "targetKey": "C9A3B137-5CF4-456C-B793-B33C2CC5CB94",
+    "createdDate": "2021-02-01T05:17:01.943",
+    "modifiedDate": "2021-02-01T05:17:01.943",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

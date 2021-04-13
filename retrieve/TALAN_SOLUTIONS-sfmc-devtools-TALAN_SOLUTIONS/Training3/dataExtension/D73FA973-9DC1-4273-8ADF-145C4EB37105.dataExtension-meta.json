@@ -1,0 +1,34 @@
+{
+    "CreatedDate": "2020-11-17T04:01:18.913",
+    "CustomerKey": "D73FA973-9DC1-4273-8ADF-145C4EB37105",
+    "Name": "Transactional_Event_Notification_CallBack_Verification",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Message",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Body",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "4000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

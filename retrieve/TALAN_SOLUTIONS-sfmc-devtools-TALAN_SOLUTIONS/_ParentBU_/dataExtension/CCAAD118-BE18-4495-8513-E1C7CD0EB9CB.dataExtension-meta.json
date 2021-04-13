@@ -1,0 +1,25 @@
+{
+    "CreatedDate": "2020-12-10T12:58:23.787",
+    "CustomerKey": "CCAAD118-BE18-4495-8513-E1C7CD0EB9CB",
+    "Name": "Webinar BtoB Enquete",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "id",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "255",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Interactive Content"
+}

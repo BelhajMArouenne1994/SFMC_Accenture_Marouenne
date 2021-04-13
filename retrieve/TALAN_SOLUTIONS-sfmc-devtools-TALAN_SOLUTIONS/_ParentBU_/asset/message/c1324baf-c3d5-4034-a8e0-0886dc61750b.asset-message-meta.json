@@ -1,0 +1,64 @@
+{
+    "customerKey": "c1324baf-c3d5-4034-a8e0-0886dc61750b",
+    "contentType": "application/vnd.etmc.email.Message; kind=textOnly",
+    "assetType": {
+        "name": "textonlyemail",
+        "displayName": "Text Only Email"
+    },
+    "name": "Mail Bienvenue",
+    "description": "",
+    "owner": {
+        "email": "caroline.boher@talan.com",
+        "name": "Caroline Boher"
+    },
+    "createdDate": "2018-06-26T00:42:58.543-06:00",
+    "createdBy": {
+        "email": "caroline.boher@talan.com",
+        "name": "Caroline Boher"
+    },
+    "modifiedDate": "2018-06-26T00:42:58.543-06:00",
+    "modifiedBy": {
+        "email": "caroline.boher@talan.com",
+        "name": "Caroline Boher"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "subjectline": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "text": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "thumbnail": {},
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "text",
+        "subscriptioncenter",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            }
+        },
+        "approvals": {
+            "approvalStatus": null
+        },
+        "campaigns": {}
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Test Caroline"
+}

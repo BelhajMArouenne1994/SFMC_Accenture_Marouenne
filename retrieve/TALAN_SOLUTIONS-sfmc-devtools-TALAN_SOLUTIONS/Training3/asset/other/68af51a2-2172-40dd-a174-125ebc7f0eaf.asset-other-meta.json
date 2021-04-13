@@ -1,0 +1,31 @@
+{
+    "customerKey": "68af51a2-2172-40dd-a174-125ebc7f0eaf",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "Notif_Callback_Verif"
+    },
+    "name": "Notif_Callback_Verif",
+    "owner": {
+        "email": "marouenne.belhaj@talan.com",
+        "name": "Marouenne Belhaj"
+    },
+    "createdDate": "2020-11-17T04:02:54.173-06:00",
+    "createdBy": {
+        "email": "marouenne.belhaj@talan.com",
+        "name": "Marouenne Belhaj"
+    },
+    "modifiedDate": "2020-11-17T04:02:54.173-06:00",
+    "modifiedBy": {
+        "email": "marouenne.belhaj@talan.com",
+        "name": "Marouenne Belhaj"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,32 @@
+{
+    "customerKey": "2CADEFBE-4319-4F1E-BB79-28FB2D438A7C",
+    "contentType": "text/html",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "name": "j",
+    "owner": {
+        "email": "amal.bahrini@talan.com",
+        "name": "Amal Bahrini"
+    },
+    "createdDate": "2019-11-05T13:13:50.71-06:00",
+    "createdBy": {
+        "email": "amal.bahrini@talan.com",
+        "name": "Amal Bahrini"
+    },
+    "modifiedDate": "2019-11-05T13:21:30.95-06:00",
+    "modifiedBy": {
+        "email": "amal.bahrini@talan.com",
+        "name": "Amal Bahrini"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "data": {
+        "email": {}
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

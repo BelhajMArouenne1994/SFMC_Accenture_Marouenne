@@ -1,0 +1,92 @@
+{
+    "customerKey": "8b16ce56-52ef-4747-9ac6-e25e7eb8ea1d",
+    "contentType": "application/vnd.etmc.email.Message; kind=paste",
+    "assetType": {
+        "name": "htmlemail",
+        "displayName": "HTML Email"
+    },
+    "name": "Test Lahoucine",
+    "description": "",
+    "owner": {
+        "email": "lahoucine.ikerchalene@talan.com",
+        "name": "Lahoucine Ikerchalene"
+    },
+    "createdDate": "2019-07-04T07:53:08.87-06:00",
+    "createdBy": {
+        "email": "lahoucine.ikerchalene@talan.com",
+        "name": "Lahoucine Ikerchalene"
+    },
+    "modifiedDate": "2019-07-04T07:53:08.87-06:00",
+    "modifiedBy": {
+        "email": "lahoucine.ikerchalene@talan.com",
+        "name": "Lahoucine Ikerchalene"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "subjectline": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "preheader": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "html": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "text": {
+            "thumbnail": {},
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": "html"
+                    }
+                }
+            },
+            "generateFrom": "html",
+            "modelVersion": 2
+        },
+        "viewAsAWebPage": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "forwardHTML": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "thumbnail": {},
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "preheader",
+        "html",
+        "text",
+        "viewAsAWebPage",
+        "subscriptioncenter",
+        "forwardHTML",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            }
+        },
+        "approvals": {
+            "approvalStatus": null
+        },
+        "campaigns": {}
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Test Aline/Html_EDF"
+}

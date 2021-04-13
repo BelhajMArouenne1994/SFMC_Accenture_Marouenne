@@ -1,0 +1,30 @@
+<table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><form action="https://subdomain.example.com/yourcoderesource" method="post">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  Email: <input type="text" name="email"><br>
+  Company name: <input type="text" name="cname"><br>
+  <input type="submit" value="Submit">
+</form> 
+%%[ SET @phone = "14254981234" ]%%
+<a alias="Phone" href="%%=RedirectTo(@phone)=%%">Phone</a>
+%%[
+SET @fname = RequestParameter("fname")
+SET @lname = RequestParameter("lname")
+SET @email = RequestParameter("email")
+SET @cname = RequestParameter("cname")
+]%%
+
+%%[
+IF NOT EMPTY(@email) THEN
+SET @lead = RetrieveSalesforceObjects('Lead', 'Id', 'Email', '=', @email)
+IF RowCount(@lead) > 0 THEN
+SET @result = UpdateSingleSalesforceObject('Lead',Field(Row(@lead, 1),Id),Firstname,@fname,Lastname',@lname)
+OUTPUT(CONCAT("Existing lead was updated: ",@result))
+ELSE
+SET @result = CreateSalesforceObject('Lead', 3, 'FirstName', @fname, 'LastName', @lname, 'Email', @email, 'Company', @cname)
+OUTPUT(CONCAT("New lead was created: ",@result))
+ENDIF
+ELSE
+OUTPUT("Email must be provided in form")
+ENDIF
+]%%</td></tr></table>

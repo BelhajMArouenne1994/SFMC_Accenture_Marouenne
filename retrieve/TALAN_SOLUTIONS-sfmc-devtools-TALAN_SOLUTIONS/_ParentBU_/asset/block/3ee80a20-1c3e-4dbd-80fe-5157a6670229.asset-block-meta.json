@@ -1,0 +1,40 @@
+{
+    "customerKey": "3ee80a20-1c3e-4dbd-80fe-5157a6670229",
+    "assetType": {
+        "name": "freeformblock",
+        "displayName": "Free Form Block"
+    },
+    "fileProperties": {
+        "fileName": "Webinar BtoB dynamic content contrat A"
+    },
+    "name": "Webinar BtoB dynamic content contrat A",
+    "owner": {
+        "email": "aline.jactin@talan.com",
+        "name": "Aline Jactin"
+    },
+    "createdDate": "2020-12-14T11:40:02.483-06:00",
+    "createdBy": {
+        "email": "aline.jactin@talan.com",
+        "name": "Aline Jactin"
+    },
+    "modifiedDate": "2020-12-16T11:33:08.927-06:00",
+    "modifiedBy": {
+        "email": "aline.jactin@talan.com",
+        "name": "Aline Jactin"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Webinar BtoB Manufacturing"
+}

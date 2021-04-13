@@ -1,0 +1,170 @@
+<table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[
+/*Set subscriber id*/
+set @subkey = _subscriberkey
+/*set @longid = @subkey*/
+/*set @longid = "0032000001GAhViAAL"*/
+
+/*set Object Type selon subscriber id*/
+set @ObjectCode = Substring(@longid,3,1) 
+
+if  @ObjectCode == 1 then set @ObjectType = 'Account'
+    elseif @ObjectCode == 3 then set @ObjectType = 'Contact'      
+    else set @ObjectType = 'None'
+endif 
+
+/*Récupération des objets: Compte & Contact*/
+var @Object
+    if @ObjectType == 'Contact' then set @Object = RetrieveSalesforceObjects(@ObjectType,"Email,Salutation,FirstName,LastName,MailingStreet,OtherAddress,MailingPostalCode,MailingCity,MailingCountry,Phone,Birthdate","Id", "=", @longid) 
+    else set @Object = RetrieveSalesforceObjects(@ObjectType,"Email,Name,BillingStreet,BillingPostalCode,BillingCity,BillingCountry,Phone,PersonBirthdate","Id", "=", @longid) 
+    endif
+
+set @ObjectRow = ROW(@Object,1) 
+set @Email = FIELD(@ObjectRow,"Email")
+set @Phone = FIELD(@ObjectRow,"Phone")
+/*Contact fields*/
+if @ObjectType == 'Contact' then 
+    set @Salutation = FIELD(@ObjectRow,"Salutation")
+    set @FirstName = FIELD(@ObjectRow,"FirstName")
+    set @LastName = FIELD(@ObjectRow,"LastName")
+    set @MailingStreet = FIELD(@ObjectRow,"MailingStreet")
+    /*set @OtherAddress = FIELD(@ObjectRow,"OtherAddress")*/
+    set @MailingPostalCode = FIELD(@ObjectRow,"MailingPostalCode")
+    set @MailingCity = FIELD(@ObjectRow,"MailingCity")
+    set @MailingCountry = FIELD(@ObjectRow,"MailingCountry")
+ set @Birthdate = FIELD(@ObjectRow,"Birthdate") 
+/*Account fields*/
+else
+    set @Name = FIELD(@ObjectRow,"Name")
+    set @BillingStreet = FIELD(@ObjectRow,"BillingStreet")
+    set @BillingPostalCode = FIELD(@ObjectRow,"BillingPostalCode")
+    set @BillingCity = FIELD(@ObjectRow,"BillingCity")
+    set @BillingCountry = FIELD(@ObjectRow,"BillingCountry")
+    set @PersonBirthdate = FIELD(@ObjectRow,"PersonBirthdate")
+endif
+
+]%%
+
+
+<style>
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+form {text-align: center;}
+div{text-align: center;}  
+</style>
+
+<div>
+  <p>
+    ZEVENT:
+  </p>
+</div>
+
+<form id="ContactForm">
+  <br><table>
+    <tr>
+      <td><label for="email">Email *:</label></td>
+      <td><input type="text" id="email" name="email" %%=v(@Email)=%%></td>
+      <td><i>Merci de confirmer votre adresse email </i></td>
+    </tr>
+    
+    
+    <tr>
+    <td><label for="salutation">Civilité *:</label><br></td>
+    <td><input type="radio" id="male" name="gender" value="male">
+        <label for="male">Monsieur</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Madame</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Autre</label><br>
+    </td>
+  </tr>
+  <tr>
+    <td><label for="fname">Nom *:</label></td>
+    <td><input type="text" id="fname" name="fname" %%=v(@FirstName)=%%></td>
+  </tr>
+  <tr>
+    <td><label for="lname">Prénom *:</label></td>
+    <td><input type="text" id="lname" name="lname" %%=v(@LastName)=%%>
+  </td></tr>
+  <tr>
+    <td><label for="address">Adresse - N° et libellé voie *:</label></td>
+    <td> <input type="text" id="address" name="address" %%=v(@MailingStreet)=%%><br></td>
+  </tr>
+    <tr>
+    <td><label for="compaddress">Complément d’adresse  :</label></td> 
+    <td><input type="text" id="compaddress" name="compaddress"><br></td> 
+  </tr>
+  <tr>
+    <td> <label for="postcode">Code Postal *:</label></td> 
+    <td> <input type="text" id="postcode" name="postcode" %%=v(@MailingPostalCode)=%%><br></td> 
+  </tr>
+  <tr>
+    <td><label for="city">Ville *:</label></td> 
+    <td><input type="text" id="city" name="city" %%=v(@MailingCity)=%%><br></td> 
+  </tr>
+  <tr>
+    <td><label for="country">Pays *:</label></td> 
+    <td> <input type="text" id="country" name="country" %%=v(@MailingCountry)=%%></td> 
+  </tr>
+  <tr>
+    <td><label for="mobilephone">Téléphone :</label></td> 
+    <td><input type="text" id="mobilephone" name="mobilephone" %%=v(@Phone)=%%><br></td> 
+  </tr>
+    <tr>
+    <td><label for="birthday">Date de naissance :</label></td> 
+    <td><input type="date" id="birthday" name="birthday" %%=v(@Birthdate)=%%>
+      <br>
+  <input type="submit" value="Générer le reçu fiscal" onclick="validateForm();">
+  <i>(*) champs obligatoire</i>
+<p></p></td></tr></table></form>
+
+
+<form id="AccountForm" style="display:none">
+  <br><table>
+    <tr>
+      <td><label for="email">Email *:</label></td>
+      <td><input type="text" id="email" name="email"></td>
+      <td><i>Merci de confirmer votre adresse email </i></td>
+    </tr>
+   
+  <tr>
+    <td><label for="name">Raison Sociale  :</label></td>
+    <td><input type="text" id="fname" name="fname"></td>
+  </tr>
+  <tr>
+    <td><label for="address">Adresse - N° et libellé voie *:</label></td>
+    <td> <input type="text" id="address" name="address"><br></td>
+  </tr>
+    <tr>
+    <td><label for="compaddress">Complément d’adresse  :</label></td> 
+    <td><input type="text" id="compaddress" name="compaddress"><br></td> 
+  </tr>
+  <tr>
+    <td> <label for="postcode">Code Postal *:</label></td> 
+    <td> <input type="text" id="postcode" name="postcode"><br></td> 
+  </tr>
+  <tr>
+    <td><label for="city">Ville *:</label></td> 
+    <td><input type="text" id="city" name="city"><br></td> 
+  </tr>
+  <tr>
+    <td><label for="country">Pays *:</label></td> 
+    <td> <input type="text" id="country" name="country"></td> 
+  </tr>
+  <tr>
+    <td><label for="mobilephone">Téléphone :</label></td> 
+    <td><input type="text" id="mobilephone" name="mobilephone"><br></td> 
+  </tr>
+    <tr>
+    <td><label for="birthday">Date de naissance :</label></td> 
+    <td><input type="date" id="birthday" name="birthday"></td> 
+  </tr>  
+</table>
+  <br>
+  <input type="submit" value="Générer le reçu fiscal" onclick="validateForm();">
+    
+</form>
+  
+
+</td></tr></table>

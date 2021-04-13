@@ -1,0 +1,50 @@
+{
+    "name": "Update All_Subscribers Attributes",
+    "description": "",
+    "key": "125bd5e7-203a-8ff6-b90a-83938cadad30",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2021-02-17T13:43:00",
+        "endDate": "2021-02-17T13:43:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Romance Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Update All_Subscribers Query",
+                    "displayOrder": 1,
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "Update_All_Subscribers_DE_Extract",
+                    "displayOrder": 1,
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "Update_All_Subscribers_DE_Transfer",
+                    "displayOrder": 1,
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

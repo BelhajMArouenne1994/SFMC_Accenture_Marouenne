@@ -1,0 +1,16 @@
+{
+    "name": "Extract Contacts",
+    "customerKey": "68ef7e69-54db-4a84-88be-9c516904851f",
+    "createdDate": "2021-03-02T04:37:27.37",
+    "modifiedDate": "2021-03-02T04:37:27.37",
+    "fileSpec": "Contacts_Without_Channel_Address_%%Year%%_%%Month%%_%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "Talend"
+}

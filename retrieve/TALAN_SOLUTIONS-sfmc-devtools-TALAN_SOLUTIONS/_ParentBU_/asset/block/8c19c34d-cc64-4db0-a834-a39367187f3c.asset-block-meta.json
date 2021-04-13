@@ -1,0 +1,40 @@
+{
+    "customerKey": "8c19c34d-cc64-4db0-a834-a39367187f3c",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "amal"
+    },
+    "name": "amal",
+    "owner": {
+        "email": "jouhaina.sfar-mahdoui@talan.com",
+        "name": "Jouhaina"
+    },
+    "createdDate": "2021-02-09T10:31:15.173-06:00",
+    "createdBy": {
+        "email": "jouhaina.sfar-mahdoui@talan.com",
+        "name": "Jouhaina"
+    },
+    "modifiedDate": "2021-02-09T10:31:15.173-06:00",
+    "modifiedBy": {
+        "email": "jouhaina.sfar-mahdoui@talan.com",
+        "name": "Jouhaina"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

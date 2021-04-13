@@ -1,0 +1,47 @@
+{
+    "customerKey": "9a94077d-b1a2-4d55-b6b8-c9f5dc04eb36",
+    "assetType": {
+        "name": "imageblock",
+        "displayName": "Image Block"
+    },
+    "fileProperties": {
+        "fileName": "logo"
+    },
+    "name": "logo",
+    "owner": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "createdDate": "2020-10-14T03:59:20.33-06:00",
+    "createdBy": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "modifiedDate": "2020-10-14T03:59:23.483-06:00",
+    "modifiedBy": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: transparent; border: 15px solid #000000; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 0px; \" class=\"stylingblock-content-wrapper camarker-inner\"><table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tr><td align=\"center\"><img data-assetid=\"160923\" src=\"https://image.s10.sfmc-content.com/lib/fe3811717064047d741778/m/1/6b467103-7aba-4b0c-8418-4eeaf150dd24.gif\" alt=\"\" width=\"149\" style=\"display: block; padding: 0px; text-align: center; border: 0px solid transparent; height: auto; width: 100%;\"></td></tr></table></td></tr></table>",
+    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: transparent; border: 15px solid #000000; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 0px; \" class=\"stylingblock-content-wrapper camarker-inner\"></td></tr></table>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true,
+                "columnOrder": "ltr"
+            },
+            "styling": {
+                "background-color": "transparent",
+                "margin": "0px",
+                "padding": "0px",
+                "border": "15px solid #000000"
+            }
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

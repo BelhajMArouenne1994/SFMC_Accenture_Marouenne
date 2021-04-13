@@ -1,0 +1,11 @@
+{
+    "name": "SQL Query test",
+    "key": "544f6667-7ca1-4ebb-ac2c-decbfd83cc14",
+    "description": "",
+    "targetKey": "7CF6D92B-72D9-4860-B309-735C78B66489",
+    "createdDate": "2020-10-19T03:30:23.94",
+    "modifiedDate": "2020-10-19T03:30:23.94",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

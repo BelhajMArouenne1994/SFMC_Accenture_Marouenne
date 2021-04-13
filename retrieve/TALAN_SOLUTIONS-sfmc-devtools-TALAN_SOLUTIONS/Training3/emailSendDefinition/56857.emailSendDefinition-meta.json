@@ -1,0 +1,47 @@
+{
+    "CreatedDate": "2020-11-09T07:31:48.533",
+    "ModifiedDate": "2020-11-09T07:31:48.533",
+    "CustomerKey": "56857",
+    "Name": "Test Activity 1",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "1141"
+    },
+    "SenderProfile": {
+        "CustomerKey": "5227"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": "false",
+    "IsSendLogging": "true",
+    "SendDefinitionList": [
+        {
+            "List": {
+                "PartnerKey": "",
+                "ID": "8808",
+                "ObjectID": ""
+            },
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "",
+            "DataSourceTypeID": "List",
+            "IsTestObject": "false",
+            "SalesForceObjectID": "",
+            "Name": ""
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Marwen: test",
+    "DynamicEmailSubject": "Marwen: test",
+    "IsMultipart": "true",
+    "IsWrapped": "true",
+    "DeduplicateByEmail": "false",
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "TestTemplate1",
+    "r__assetMessage_Key": "6ac03772-05d1-444c-9db8-6dfcd3893cda"
+}

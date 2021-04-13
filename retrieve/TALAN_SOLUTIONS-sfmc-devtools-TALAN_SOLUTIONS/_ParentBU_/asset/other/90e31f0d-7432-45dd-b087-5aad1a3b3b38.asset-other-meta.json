@@ -1,0 +1,31 @@
+{
+    "customerKey": "90e31f0d-7432-45dd-b087-5aad1a3b3b38",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "From Email"
+    },
+    "name": "From Email",
+    "owner": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "createdDate": "2021-03-17T08:01:14.463-06:00",
+    "createdBy": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "modifiedDate": "2021-03-17T10:39:15.91-06:00",
+    "modifiedBy": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

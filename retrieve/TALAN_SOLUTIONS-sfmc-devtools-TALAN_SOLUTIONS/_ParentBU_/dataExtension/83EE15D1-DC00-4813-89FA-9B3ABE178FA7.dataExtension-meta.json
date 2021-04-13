@@ -1,0 +1,34 @@
+{
+    "CreatedDate": "2021-02-24T11:00:03.917",
+    "CustomerKey": "83EE15D1-DC00-4813-89FA-9B3ABE178FA7",
+    "Name": "Unsubscribed SF Contacts",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Id",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "100",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Status",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "12",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Celine"
+}

@@ -1,0 +1,31 @@
+{
+    "CreatedDate": "2021-02-03T03:33:00",
+    "ModifiedDate": "2021-02-03T03:37:00",
+    "CustomerKey": "86631",
+    "Name": "TriggerMarwenTest",
+    "Description": "TriggerMarwenTest",
+    "Keyword": "",
+    "SendClassification": {
+        "CustomerKey": "1154"
+    },
+    "FromName": "Aline Jactin",
+    "FromAddress": "aline.jactin@talan.com",
+    "SuppressTracking": "false",
+    "TriggeredSendType": "Continuous",
+    "TriggeredSendStatus": "Active",
+    "AutoAddSubscribers": "true",
+    "AutoUpdateSubscribers": "false",
+    "BatchInterval": "0",
+    "BccEmail": "",
+    "EmailSubject": "%%First Name%%",
+    "DynamicEmailSubject": "%%First Name%%",
+    "IsMultipart": "false",
+    "IsWrapped": "true",
+    "AllowedSlots": "0",
+    "NewSlotTrigger": "0",
+    "Priority": "4",
+    "r__folder_Path": "Triggered Sends",
+    "r__assetMessage_Name": "MarwenTest",
+    "r__assetMessage_Key": "dc5ed3d5-1b76-4a81-9a7e-7356f6d26d1d",
+    "r__list_PathName": "my subscribers/All Subscribers"
+}

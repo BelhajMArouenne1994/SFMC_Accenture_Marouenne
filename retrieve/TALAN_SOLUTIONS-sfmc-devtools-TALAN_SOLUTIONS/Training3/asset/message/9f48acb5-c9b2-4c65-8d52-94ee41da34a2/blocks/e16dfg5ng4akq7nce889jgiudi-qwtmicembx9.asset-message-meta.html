@@ -1,0 +1,36 @@
+%%[
+VAR @Email, @EmailOptOut
+
+SET @Email = [Email Address]
+SET @EmailOptOut = application
+]%%
+<a title="Some page" 
+href="%%=CloudPagesURL(6648,'email', @Email,
+'societe', societe, 'EmailOptOut', application)=%%" 
+   
+alias="Some page">
+Click to go there
+</a>
+<h2>
+  Bonjour %%FirstName%%
+</h2>
+%%[set @lookupValue = AttributeValue("_subscriberkey") 
+
+
+set @application = Lookup("MasterSubscriber","application","CustomerID", @lookupValue)
+IF application == true THEN]%%
+    votre code est NOEL2020
+<p>
+  Ne passez pas à côté de votre récompense !
+Choisissez lors de votre prochain achat en ligne ou en magasin
+l’une de ces 3 jolies attentions avant le 12/09/2020.
+</p>
+
+%%[ELSE]%%
+    <a href = "">Telechargez l'application et béneficiez d'un code promotionnel</a>
+<p>
+  via notre application mobile, vous aurez l'accès à tous les produits disponibles, en promotion et la collection COMING SOON
+</p>
+%%[ENDIF]%%
+%%[ SET @phone = "tel:14254981234" ]%%
+<a alias="Phone"  href="%%=RedirectTo(@phone)=%%">Phone</a>

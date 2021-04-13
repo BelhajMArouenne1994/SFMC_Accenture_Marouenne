@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2019-09-26T07:12:07.98",
+    "ModifiedDate": "2019-09-26T07:12:07.98",
+    "CustomerKey": "36067",
+    "Name": "Email Salon Activity",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": "false",
+    "IsSendLogging": "true",
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": "false",
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "5704C89A-CB49-4A3C-8A8A-61F4C867E214",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Exposition interactive Facebook\\Talan",
+    "DynamicEmailSubject": "Exposition interactive Facebook\\Talan",
+    "IsMultipart": "true",
+    "IsWrapped": "true",
+    "DeduplicateByEmail": "true",
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Email Salon Talan - LIK",
+    "r__assetMessage_Key": "449f9d12-63f3-4857-87a9-d701bc6e9bff"
+}

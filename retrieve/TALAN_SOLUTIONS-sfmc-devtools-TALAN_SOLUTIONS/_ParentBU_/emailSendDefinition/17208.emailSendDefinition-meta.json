@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2018-07-11T07:59:26.843",
+    "ModifiedDate": "2018-07-12T07:03:45.097",
+    "CustomerKey": "17208",
+    "Name": "Newsletter 1 - Bienvenue",
+    "Description": "Email 1",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "178"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": "false",
+    "IsSendLogging": "false",
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "",
+            "DataSourceTypeID": "List",
+            "IsTestObject": "false",
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__list_PathName": "my lists/Equipe Solutions"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Bienvenue à Crêche Attitude",
+    "DynamicEmailSubject": "Bienvenue à Crêche Attitude",
+    "IsMultipart": "true",
+    "IsWrapped": "true",
+    "DeduplicateByEmail": "false",
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Bienvenue à Crêche Attitude",
+    "r__assetMessage_Key": "316d90f6-b409-42d5-bb97-5a03bc58bf06"
+}

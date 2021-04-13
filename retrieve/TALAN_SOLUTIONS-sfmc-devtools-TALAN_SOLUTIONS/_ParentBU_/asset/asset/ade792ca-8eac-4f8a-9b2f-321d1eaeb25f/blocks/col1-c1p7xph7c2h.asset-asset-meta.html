@@ -1,0 +1,154 @@
+<table
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    style="min-width: 100%"
+    class="stylingblock-content-wrapper"
+>
+    <tr>
+        <td class="stylingblock-content-wrapper camarker-inner">
+            <style>
+                table {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                form {
+                    text-align: center;
+                }
+                div {
+                    text-align: center;
+                }
+            </style>
+
+            <div>
+                <p>test rabroub</p>
+                <p>Z-event:</p>
+            </div>
+            <form id="ContactForm">
+                <p>test contact</p>
+                <br />
+                <table>
+                    <tr>
+                        <td><label for="email">Email *:</label></td>
+                        <td><input type="text" id="email" name="email" /></td>
+                        <td><i>Merci de confirmer votre adresse email </i></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="salutation">Civilité *:</label><br /></td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male" />
+                            <label for="male">Monsieur</label>
+                            <input type="radio" id="female" name="gender" value="female" />
+                            <label for="female">Madame</label>
+                            <input type="radio" id="other" name="gender" value="other" />
+                            <label for="other">Autre</label><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="fname">Nom *:</label></td>
+                        <td><input type="text" id="fname" name="fname" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Prénom *:</label></td>
+                        <td><input type="text" id="lname" name="lname" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Adresse - N° et libellé voie *:</label></td>
+                        <td><input type="text" id="address" name="address" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="compaddress">Complément d’adresse :</label></td>
+                        <td><input type="text" id="compaddress" name="compaddress" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="postcode">Code Postal *:</label></td>
+                        <td><input type="text" id="postcode" name="postcode" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">Ville *:</label></td>
+                        <td><input type="text" id="city" name="city" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Pays *:</label></td>
+                        <td><input type="text" id="country" name="country" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobilephone">Téléphone :</label></td>
+                        <td><input type="text" id="mobilephone" name="mobilephone" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="birthday">Date de naissance :</label></td>
+                        <td>
+                            <input type="date" id="birthday" name="birthday" />
+                            <input
+                                type="submit"
+                                value="Générer le reçu fiscal"
+                                onclick="validateForm();"
+                            />
+
+                            <p></p>
+
+                            <i>(*) champs obligatoire</i>
+                            <p></p>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <form id="AccountForm">
+                <br />
+                <table>
+                    <tr>
+                        <td><label for="email">Email *:</label></td>
+                        <td><input type="text" id="email" name="email" /></td>
+                        <td><i>Merci de confirmer votre adresse email </i></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="name">Raison Sociale :</label></td>
+                        <td><input type="text" id="fname" name="fname" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Adresse - N° et libellé voie *:</label></td>
+                        <td><input type="text" id="address" name="address" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="compaddress">Complément d’adresse :</label></td>
+                        <td><input type="text" id="compaddress" name="compaddress" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="postcode">Code Postal *:</label></td>
+                        <td><input type="text" id="postcode" name="postcode" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">Ville *:</label></td>
+                        <td><input type="text" id="city" name="city" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Pays *:</label></td>
+                        <td><input type="text" id="country" name="country" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobilephone">Téléphone :</label></td>
+                        <td><input type="text" id="mobilephone" name="mobilephone" /><br /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="birthday">Date de naissance :</label></td>
+                        <td><input type="date" id="birthday" name="birthday" /></td>
+                    </tr>
+                </table>
+                <br />
+                <input type="submit" value="Générer le reçu fiscal" onclick="validateForm();" />
+            </form>
+
+            <script>
+                if (1 == 1) {
+                    document.getElementById('AccountForm').style.display = 'none';
+                } else {
+                    document.getElementById('ContactForm').style.display = 'none';
+                }
+            </script>
+        </td>
+    </tr>
+</table>

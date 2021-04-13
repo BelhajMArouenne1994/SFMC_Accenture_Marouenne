@@ -1,0 +1,11 @@
+{
+    "name": "SQL_Query",
+    "key": "8f31686b-bf21-43f7-a5d3-09b31a5eca95",
+    "description": "",
+    "targetKey": "411A41E8-AC32-4DAD-B87F-54494EA766F5",
+    "createdDate": "2019-11-06T03:09:36.093",
+    "modifiedDate": "2019-11-06T03:09:36.093",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

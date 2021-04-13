@@ -1,0 +1,88 @@
+{
+    "name": "Journey A",
+    "description": "",
+    "key": "263d8145-a494-6b06-bb10-f28360ae3d79",
+    "type": "scheduled",
+    "status": "Building",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2018-06-27T10:00:00",
+        "endDate": "2018-06-27T10:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Romance Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Femmes de plus de 20ans",
+                    "displayOrder": 1,
+                    "r__type": "filter"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "Newsletter 1 - Bienvenue",
+                    "displayOrder": 1,
+                    "r__type": "emailSendDefinition"
+                },
+                {
+                    "name": "",
+                    "displayOrder": 2,
+                    "r__type": "push"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "2 Days",
+                    "displayOrder": 1,
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 4,
+            "activities": [
+                {
+                    "name": "Open rate",
+                    "displayOrder": 1,
+                    "r__type": "refreshGroup"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 5,
+            "activities": [
+                {
+                    "name": "",
+                    "displayOrder": 1,
+                    "r__type": "push"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 6,
+            "activities": [
+                {
+                    "name": "Segmentation Creche Attitude",
+                    "displayOrder": 1,
+                    "r__type": "fireEvent"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

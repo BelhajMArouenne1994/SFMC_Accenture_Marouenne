@@ -1,0 +1,16 @@
+{
+    "name": "Transfer Trail Access Log 2",
+    "customerKey": "436d07b0-6c0c-4906-9ff3-4a4ea1156bde",
+    "createdDate": "2021-03-02T04:14:33.043",
+    "modifiedDate": "2021-03-02T04:47:57.49",
+    "fileSpec": "Extract_Trail_Acces_Log_%%Year%%_%%Month%%_%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "Talend"
+}

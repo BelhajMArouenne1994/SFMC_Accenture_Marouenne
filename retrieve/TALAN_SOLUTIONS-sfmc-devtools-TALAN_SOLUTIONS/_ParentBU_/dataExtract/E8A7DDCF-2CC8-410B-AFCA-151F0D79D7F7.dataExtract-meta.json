@@ -1,0 +1,13 @@
+{
+    "name": "Contacts Without Channel Address",
+    "key": "E8A7DDCF-2CC8-410B-AFCA-151F0D79D7F7",
+    "fileSpec": "Contacts_Without_Channel_Address_%%Year%%_%%Month%%_%%Day%%.csv",
+    "createdDate": "2021-03-02T02:41:31.93",
+    "modifiedDate": "2021-03-02T04:53:22.197",
+    "createdBy": 715278447,
+    "modifiedBy": 715278447,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [],
+    "r__dataExtractType_name": "Contacts Without Channel Addresses"
+}

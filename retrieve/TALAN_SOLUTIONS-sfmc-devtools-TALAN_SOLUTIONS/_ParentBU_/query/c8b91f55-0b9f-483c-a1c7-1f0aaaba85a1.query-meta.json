@@ -1,0 +1,11 @@
+{
+    "name": "Update All_Subscribers Query",
+    "key": "c8b91f55-0b9f-483c-a1c7-1f0aaaba85a1",
+    "description": "",
+    "targetKey": "FAA8F6E9-0A1B-4C25-8F43-8494D00B6C4E",
+    "createdDate": "2021-02-17T06:34:21.97",
+    "modifiedDate": "2021-02-17T06:34:21.97",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

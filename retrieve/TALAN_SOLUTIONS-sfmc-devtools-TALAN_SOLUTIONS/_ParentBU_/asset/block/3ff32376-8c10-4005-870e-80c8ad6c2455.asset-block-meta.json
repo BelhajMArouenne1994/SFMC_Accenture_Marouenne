@@ -1,0 +1,37 @@
+{
+    "customerKey": "3ff32376-8c10-4005-870e-80c8ad6c2455",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "name": "Issue_EDF",
+    "owner": {
+        "email": "flora.moreira@talan.com",
+        "name": "Flora Moreira"
+    },
+    "createdDate": "2019-06-14T04:47:25.283-06:00",
+    "createdBy": {
+        "email": "flora.moreira@talan.com",
+        "name": "Flora Moreira"
+    },
+    "modifiedDate": "2019-06-14T09:59:51.983-06:00",
+    "modifiedBy": {
+        "email": "flora.moreira@talan.com",
+        "name": "Flora Moreira"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Test Aline/Html_EDF"
+}

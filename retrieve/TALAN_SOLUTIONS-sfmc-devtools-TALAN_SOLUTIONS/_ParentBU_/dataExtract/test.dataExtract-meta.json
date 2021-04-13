@@ -1,0 +1,34 @@
+{
+    "name": "test",
+    "key": "test",
+    "description": "test",
+    "fileSpec": "test",
+    "createdDate": "2019-05-21T02:25:35.1",
+    "modifiedDate": "2019-05-21T02:25:35.1",
+    "createdBy": 100472520,
+    "modifiedBy": 100472520,
+    "intervalType": 1,
+    "dataFields": [
+        {
+            "name": "ApplyTimeZone",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ConvertToASCII",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "IncludeHeader",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "Timezone",
+            "type": "integer",
+            "value": "1"
+        }
+    ],
+    "r__dataExtractType_name": "Audit Trail Activity Log"
+}

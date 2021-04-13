@@ -1,0 +1,66 @@
+<table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[
+if RequestParameter("submitted") == "submitted" then
+Set @EmailAddr = RequestParameter("Email")
+Set @FirstName = RequestParameter("FirstName")
+Set @LastName = RequestParameter("LastName")
+/* Trigger Send Object Creation */
+  SET @ts = CreateObject("TriggeredSend")
+  SET @tsDef = CreateObject("TriggeredSendDefinition")
+  SET @ts_subkey = @EmailAddr
+
+/* Set the External Key of the Trigger Send Definition */
+  SetObjectProperty(@tsDef, "CustomerKey", "30057")
+  SetObjectProperty(@ts, "TriggeredSendDefinition", @tsDef)
+  
+/* Create the Subscriber Object */
+  SET @ts_sub = CreateObject("Subscriber")
+  SetObjectProperty(@ts_sub, "EmailAddress", @EmailAddr)
+
+
+/* Set SubscriberKey to EmailAddress */
+   SetObjectProperty(@ts_sub, "SubscriberKey", @EmailAddr)
+
+
+/* Create and Set Attributes */
+  SET @attr = CreateObject("Attribute")
+  SetObjectProperty(@attr, "Name", "ChannelMemberID")
+  SetObjectProperty(@attr, "Value", "100021500")
+  AddObjectArrayItem(@ts_sub, "Attributes", @attr)
+
+  SET @attr = CreateObject("Attribute")
+  SetObjectProperty(@attr, "Name", "EmailAddress")
+  SetObjectProperty(@attr, "Value", @EmailAddr)
+  AddObjectArrayItem(@ts_sub, "Attributes", @attr)
+
+  SET @attr = CreateObject("Attribute")
+  SetObjectProperty(@attr, "Name", "FirstName")
+  SetObjectProperty(@attr, "Value", @FirstName)
+  AddObjectArrayItem(@ts_sub, "Attributes", @attr)
+  
+  SET @attr = CreateObject("Attribute")
+  SetObjectProperty(@attr, "Name", "LastName")
+  SetObjectProperty(@attr, "Value", @LastName)
+  AddObjectArrayItem(@ts_sub, "Attributes", @attr)
+
+/* Add all Attributes into Array */
+  AddObjectArrayItem(@ts, "Subscribers", @ts_sub)
+
+/*Complete the Web API call to trigger send */
+  SET @ts_statusCode = InvokeCreate(@ts, @ts_statusMsg, @errorCode)
+
+/* Raise Error if Trigger fails */
+  IF @ts_statusCode != "OK" THEN
+     RaiseError(@ts_statusMsg, 0, @ts_statusCode, @errorCode)
+  ENDIF 
+  ENDIF
+  ]%%
+  
+<form action="%%=RequestParameter('PAGEURL')=%%" method="POST">
+Email: <input type="EmailAddress" name="Email" value=""><br>
+First Name: <input type="text" name="FirstName" value=""><br>
+Last Name: <input type="text" name="LastName" value=""><br>
+
+<input id="submitted" type="hidden" name="submitted" value="submitted">
+
+<input type="submit" value="Submit">
+</form></td></tr></table>

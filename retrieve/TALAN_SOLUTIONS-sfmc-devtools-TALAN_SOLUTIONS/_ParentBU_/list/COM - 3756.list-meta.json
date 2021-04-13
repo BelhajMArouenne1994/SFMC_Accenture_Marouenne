@@ -1,0 +1,14 @@
+{
+    "CreatedDate": "2018-12-01T00:52:00.31",
+    "ModifiedDate": "2018-12-01T00:52:00.31",
+    "ID": "3230",
+    "CustomerKey": "COM - 3756",
+    "ListName": "COM",
+    "Type": "Private",
+    "Description": "",
+    "ListClassification": "ExactTargetList",
+    "AutomatedEmail": {
+        "ID": "19955"
+    },
+    "r__folder_Path": "my lists"
+}

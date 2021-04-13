@@ -1,0 +1,42 @@
+<table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[
+    if @class_number > 0 then
+        for @i=1 to @class_number do
+            Set @class = Row(@classes, @i)
+            Set @classid = Field(@class, 'Class Id')
+            Set @classname = Field(@class, 'Name')
+            Set @classdate = Field(@class, 'Date')
+            Set @classteacher = Field(@class, 'Teacher Name')
+]%%
+<table cellpadding="0" cellspacing="0" width="100%" class="stylingblock-content-wrapper" style="min-width: 100%; ">
+    <tr>
+        <td class="stylingblock-content-margin-cell" style="padding: 10px 0px; ">
+            <table cellpadding="0" cellspacing="0" width="100%" style="background-color: #FF7F00; min-width: 100%; " class="stylingblock-content-wrapper">
+                <tr>
+                    <td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner">
+                        <h2 style="color:#808080;font-family:arial,helvetica,sans-serif;font-size:22px;font-style:normal;font-weight:bold;line-height:1;">
+                        <span style="color:#FFF0F5;">%%=v(@classname)=%%</span></h2>
+                        <span style="color:#FFF0F5;">Date: %%=v(@classdate)=%%</span><br>
+                        <span style="color:#FFF0F5;">Teacher: %%=v(@classteacher)=%%</span><br>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td align="center">
+                                    <table border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td bgcolor="#5D5D5D" class="innertd buttonblock" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #5D5D5D;">
+                                                <a alias="" class="buttonstyles" conversion="false" data-linkto="%%=CloudPagesURL(3456, 'class_id', @classid, 'member_id', [Member Id])=%%" href="%%=CloudPagesURL(3456, 'class_id', @classid, 'member_id', [Member Id])=%%" style=" font-size: 16px; font-family: Arial, helvetica, sans-serif; color: #FFFFFF; text-align: center; text-decoration: none; display: block; background-color: #5D5D5D; border: 1px solid #5D5D5D; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" target="_blank" title="">Sign Up</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+%%[ 
+        next @i 
+    endif
+]%%</td></tr></table>

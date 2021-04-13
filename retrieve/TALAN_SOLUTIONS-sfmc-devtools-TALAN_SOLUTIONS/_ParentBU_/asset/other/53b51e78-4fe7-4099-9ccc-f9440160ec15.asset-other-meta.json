@@ -1,0 +1,137 @@
+{
+    "customerKey": "53b51e78-4fe7-4099-9ccc-f9440160ec15",
+    "assetType": {
+        "name": "imagecarouselblock",
+        "displayName": "Image Carousel Block"
+    },
+    "fileProperties": {
+        "fileName": "Test caroussel"
+    },
+    "name": "Test caroussel",
+    "owner": {
+        "email": "flora.moreira@talan.com",
+        "name": "Flora Moreira"
+    },
+    "createdDate": "2019-10-04T01:49:06.93-06:00",
+    "createdBy": {
+        "email": "flora.moreira@talan.com",
+        "name": "Flora Moreira"
+    },
+    "modifiedDate": "2019-10-04T01:49:06.93-06:00",
+    "modifiedBy": {
+        "email": "flora.moreira@talan.com",
+        "name": "Flora Moreira"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"100%\">\n    <tr>\n        <td align=\"center\" class=\"mc-carousel-align\">\n            <table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse:collapse;width: 100%;\">\n                <tr>\n                    <td align=\"left\" class=\"mc-carousel-style\" style=\"\">\n                        <!--[if !mso]><!-- -->\n                        <div class=\"mc-carousel mc-carousel-4\" style=\"overflow:hidden;display:none;max-height:0px;\">\n                            <input class=\"mc-carousel-check-support\" type=\"checkbox\" checked=\"\" style=\"display:none!important\">\n                            <input name=\"mc-carousel-id-1570175212442-radio\" type=\"radio\" id=\"mc-carousel-id-1570175212442-radio-1\" class=\"mc-carousel-radio mc-carousel-radio-1\" style=\"display:none!important\"><input name=\"mc-carousel-id-1570175212442-radio\" type=\"radio\" id=\"mc-carousel-id-1570175212442-radio-2\" class=\"mc-carousel-radio mc-carousel-radio-2\" style=\"display:none!important\"><input name=\"mc-carousel-id-1570175212442-radio\" type=\"radio\" id=\"mc-carousel-id-1570175212442-radio-3\" class=\"mc-carousel-radio mc-carousel-radio-3\" style=\"display:none!important\"><input name=\"mc-carousel-id-1570175212442-radio\" type=\"radio\" id=\"mc-carousel-id-1570175212442-radio-4\" class=\"mc-carousel-radio mc-carousel-radio-4\" style=\"display:none!important\">\n                            <div class=\"mc-carousel-container\" style=\"position:relative;\">\n                                <div class=\"mc-carousel-frames\">\n                                    <span><img src=\"https://image.s10.sfmc-content.com/lib/fe40157075640479741479/m/1/8117e559-4a30-4615-8da0-1903753e766a.jpg\" style=\"display: block; height: auto; width: 100%;\"></span><span><img src=\"https://image.s10.sfmc-content.com/lib/fe40157075640479741479/m/1/1e7156c6-40a4-44f4-87c6-0d353211d067.gif\" style=\"display: block; height: auto; width: 100%;\"></span><span><img src=\"http://image.S10.exacttarget.com/lib/fe40157075640479741479/m/1/1b68a488-11ec-4d15-b64c-d8aff8705378.jpg\" style=\"display: block; height: auto; width: 100%;\"></span><span><img src=\"http://image.S10.exacttarget.com/lib/fe40157075640479741479/m/1/82cd83d2-71b2-4210-8389-781fe849661a.png\" style=\"display: block; height: auto; width: 100%;\"></span>\n                                </div>\n                                <div class=\"mc-carousel-controls\">\n                                    <label for=\"mc-carousel-id-1570175212442-radio-4\" class=\"mc-carousel-nav mc-carousel-nav-left mc-carousel-nav-1\">\n                                        <table align=\"left\" height=\"100%\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n                                            <tr>\n                                                <td align=\"left\">\n                                                    <i></i>\n                                                </td>\n                                            </tr>\n                                        </table>\n                                    </label>\n                                    <label for=\"mc-carousel-id-1570175212442-radio-2\" class=\"mc-carousel-nav mc-carousel-nav-right mc-carousel-nav-1\">\n                                        <table align=\"right\" height=\"100%\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n                                            <tr>\n                                                <td align=\"right\">\n                                                    <i></i>\n                                                </td>\n                                            </tr>\n                                        </table>\n                                    </label>\n                                    <label for=\"mc-carousel-id-1570175212442-radio-1\" class=\"mc-carousel-nav mc-carousel-nav-left mc-carousel-nav-2\"></label>\n<label for=\"mc-carousel-id-1570175212442-radio-3\" class=\"mc-carousel-nav mc-carousel-nav-right mc-carousel-nav-2\"></label>\n<label for=\"mc-carousel-id-1570175212442-radio-2\" class=\"mc-carousel-nav mc-carousel-nav-left mc-carousel-nav-3\"></label>\n<label for=\"mc-carousel-id-1570175212442-radio-4\" class=\"mc-carousel-nav mc-carousel-nav-right mc-carousel-nav-3\"></label>\n<label for=\"mc-carousel-id-1570175212442-radio-3\" class=\"mc-carousel-nav mc-carousel-nav-left mc-carousel-nav-4\"></label>\n<label for=\"mc-carousel-id-1570175212442-radio-1\" class=\"mc-carousel-nav mc-carousel-nav-right mc-carousel-nav-4\"></label>\n\n                                </div>\n                            </div>\n                        </div>\n                        <!--<![endif]-->\n                        <div class=\"mc-carousel-fallback\" style=\"text-align:center;\">\n                            <span><img src=\"https://image.s10.sfmc-content.com/lib/fe40157075640479741479/m/1/8117e559-4a30-4615-8da0-1903753e766a.jpg\" style=\"display: block; height: auto; width: 100%;\"></span>\n                        </div>\n                    </td>\n                </tr>\n            </table>\n        </td>\n    </tr>\n</table></td></tr></table>",
+    "design": "",
+    "superContent": "<div data-marker=\"wrapper\" style=\"\" class=\"stylingblock-content-wrapper\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"100%\">\n    <tr>\n        <td align=\"center\" class=\"mc-carousel-align\">\n            <table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse:collapse;width: 100%;\">\n                <tr>\n                    <td align=\"left\" class=\"mc-carousel-style\" style=\"\">\n                        <!--[if !mso]><!-- -->\n                        <div class=\"mc-carousel mc-carousel-4\" style=\"overflow:hidden;display:none;max-height:0px;\">\n                            <input class=\"mc-carousel-check-support\" type=\"checkbox\" checked style=\"display:none!important\">\n                            <input name=\"mc-carousel-id-1570175212442-radio\" type=\"radio\" id=\"mc-carousel-id-1570175212442-radio-1\" checked=\"checked\" class=\"mc-carousel-radio mc-carousel-radio-1\" style=\"display:none!important\">\n                            <div class=\"mc-carousel-container\" style=\"position:relative;\">\n                                <div class=\"mc-carousel-frames\">\n                                    <span><img src=\"https://image.s10.sfmc-content.com/lib/fe40157075640479741479/m/1/8117e559-4a30-4615-8da0-1903753e766a.jpg\" style=\"display: block; height: auto; width: 100%;\"></span>\n                                </div>\n                                <div class=\"mc-carousel-controls\">\n                                    <label for=\"mc-carousel-id-1570175212442-radio-4\" class=\"mc-carousel-nav mc-carousel-nav-left mc-carousel-nav-1\">\n                                        <table align=\"left\" height=\"100%\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n                                            <tr>\n                                                <td align=\"left\">\n                                                    <i></i>\n                                                </td>\n                                            </tr>\n                                        </table>\n                                    </label>\n                                    <label for=\"mc-carousel-id-1570175212442-radio-2\" class=\"mc-carousel-nav mc-carousel-nav-right mc-carousel-nav-1\">\n                                        <table align=\"right\" height=\"100%\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n                                            <tr>\n                                                <td align=\"right\">\n                                                    <i></i>\n                                                </td>\n                                            </tr>\n                                        </table>\n                                    </label>\n                                    \n                                </div>\n                            </div>\n                        </div>\n                        <!--<![endif]-->\n                        <div class=\"mc-carousel-fallback\" style=\"text-align:center;\">\n                            <span><img src=\"https://image.s10.sfmc-content.com/lib/fe40157075640479741479/m/1/8117e559-4a30-4615-8da0-1903753e766a.jpg\" style=\"display: block; height: auto; width: 100%;\"></span>\n                        </div>\n                    </td>\n                </tr>\n            </table>\n        </td>\n    </tr>\n</table></div>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        },
+        "options": {
+            "autoScrolling": true,
+            "dimensions": {
+                "width": "200px",
+                "height": "300px",
+                "scaleToFit": true,
+                "isLocked": true
+            },
+            "styles": {
+                "border": "0px solid none",
+                "padding": "0px",
+                "padding-bottom": false,
+                "padding-left": false,
+                "padding-right": false,
+                "padding-top": false,
+                "padding-width": "0px",
+                "text-align": "center",
+                "styleAttr": ""
+            },
+            "carouselId": "mc-carousel-id-1570175212442",
+            "images": [
+                {
+                    "id": 76526,
+                    "name": "vis1.jpg",
+                    "url": "https://image.s10.sfmc-content.com/lib/fe40157075640479741479/m/1/8117e559-4a30-4615-8da0-1903753e766a.jpg",
+                    "width": 200,
+                    "height": 112,
+                    "naturalWidth": 372,
+                    "naturalHeight": 209,
+                    "inline": true,
+                    "styles": {
+                        "padding-top": "0px",
+                        "padding-right": "0px",
+                        "padding-bottom": "0px",
+                        "padding-left": "0px",
+                        "text-align": "center",
+                        "border": "0px solid transparent"
+                    }
+                },
+                {
+                    "id": 76535,
+                    "name": "vis1.gif",
+                    "url": "https://image.s10.sfmc-content.com/lib/fe40157075640479741479/m/1/1e7156c6-40a4-44f4-87c6-0d353211d067.gif",
+                    "width": 114,
+                    "height": 113,
+                    "naturalWidth": 114,
+                    "naturalHeight": 113,
+                    "inline": true,
+                    "styles": {
+                        "padding-top": "0px",
+                        "padding-right": "0px",
+                        "padding-bottom": "0px",
+                        "padding-left": "0px",
+                        "text-align": "center",
+                        "border": "0px solid transparent"
+                    }
+                },
+                {
+                    "id": 14496,
+                    "name": "Plage-des-Raisins-Clairs_hero1920x1280.jpg",
+                    "url": "http://image.S10.exacttarget.com/lib/fe40157075640479741479/m/1/1b68a488-11ec-4d15-b64c-d8aff8705378.jpg",
+                    "width": 1920,
+                    "height": 1280,
+                    "naturalWidth": 1920,
+                    "naturalHeight": 1280,
+                    "inline": true,
+                    "styles": {
+                        "padding-top": "0px",
+                        "padding-right": "0px",
+                        "padding-bottom": "0px",
+                        "padding-left": "0px",
+                        "text-align": "center",
+                        "border": "0px solid transparent"
+                    }
+                },
+                {
+                    "id": 14495,
+                    "name": "logo3_talansolutions.compress.gd.png",
+                    "url": "http://image.S10.exacttarget.com/lib/fe40157075640479741479/m/1/82cd83d2-71b2-4210-8389-781fe849661a.png",
+                    "width": 862,
+                    "height": 220,
+                    "naturalWidth": 862,
+                    "naturalHeight": 220,
+                    "inline": true,
+                    "styles": {
+                        "padding-top": "0px",
+                        "padding-right": "0px",
+                        "padding-bottom": "0px",
+                        "padding-left": "0px",
+                        "text-align": "center",
+                        "border": "0px solid transparent"
+                    }
+                }
+            ]
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

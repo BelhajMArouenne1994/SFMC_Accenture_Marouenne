@@ -1,0 +1,11 @@
+{
+    "name": "SQL_IMPORT_CHEETAH_DATA",
+    "key": "66ae10a5-d987-4f73-8936-90f68caabc8d",
+    "description": "",
+    "targetKey": "2965F513-99D9-4E83-AA21-6AD085014A39",
+    "createdDate": "2021-03-13T09:10:58.94",
+    "modifiedDate": "2021-03-13T09:37:36.007",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

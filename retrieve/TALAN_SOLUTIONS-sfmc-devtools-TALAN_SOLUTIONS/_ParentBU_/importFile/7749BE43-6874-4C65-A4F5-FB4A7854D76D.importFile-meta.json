@@ -1,0 +1,59 @@
+{
+    "allowErrors": true,
+    "customerKey": "7749BE43-6874-4C65-A4F5-FB4A7854D76D",
+    "createdDate": "2021-03-13T08:47:21.773",
+    "modifiedDate": "2021-03-13T08:52:58.897",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldOrdinal": 2,
+            "destinationFieldName": "Email"
+        },
+        {
+            "sourceFieldOrdinal": 7,
+            "destinationFieldName": "FirstBouncesText"
+        },
+        {
+            "sourceFieldOrdinal": 6,
+            "destinationFieldName": "FirstOptoutText"
+        },
+        {
+            "sourceFieldOrdinal": 1,
+            "destinationFieldName": "IdClient"
+        },
+        {
+            "sourceFieldOrdinal": 5,
+            "destinationFieldName": "LastClickText"
+        },
+        {
+            "sourceFieldOrdinal": 4,
+            "destinationFieldName": "LastOpenText"
+        },
+        {
+            "sourceFieldOrdinal": 3,
+            "destinationFieldName": "LastSendText"
+        }
+    ],
+    "fieldMappingType": "MapByOrdinal",
+    "fileNamingPattern": "CELINE_ExportForSFMC_SAMPLE.csv",
+    "fileType": "Other",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "IMPORT_CHEETAH_DATA",
+    "notificationEmailAddress": "marouenne.belhaj@talan.com",
+    "otherDelimiter": ",",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 0,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP",
+    "c__destinationType": "DataExtension",
+    "r__dataExtension_CustomerKey": "2965F513-99D9-4E83-AA21-6AD085014A39",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

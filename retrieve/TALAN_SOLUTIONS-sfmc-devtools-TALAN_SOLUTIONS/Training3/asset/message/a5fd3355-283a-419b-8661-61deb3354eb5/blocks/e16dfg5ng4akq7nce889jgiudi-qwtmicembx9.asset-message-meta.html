@@ -1,0 +1,24 @@
+<h2>
+  Bonjour %%FirstName%%
+</h2>
+%%[set @lookupValue = AttributeValue("_subscriberkey") 
+
+
+set @application = Lookup("MasterSubscriber","application","CustomerID", @lookupValue)
+IF application == true THEN]%%
+    votre code est NOEL2020
+<p>
+  Ne passez pas à côté de votre récompense !
+Choisissez lors de votre prochain achat en ligne ou en magasin
+l’une de ces 3 jolies attentions avant le 12/09/2020.
+</p>
+
+%%[ELSE]%%
+    <a href = "">Telechargez l'application et béneficiez d'un code promotionnel</a>
+<p>
+  via notre application mobile, vous aurez l'accès à tous les produits disponibles, en promotion et la collection COMING SOON
+</p>
+%%[ENDIF]%%
+%%[ SET @phone = "tel:14254981234" ]%%
+<a alias="Phone"  href="%%=RedirectTo(@phone)=%%">Phone</a>
+<img src="http://maps.googleapis.com/maps/api/staticmap?size=800x600&maptype=hybrid&scale=2&format=png8&sensor=false&path=geodesic%3Atrue%7C-6.9325%2C+37.3916666666667%7C-6.9325%2C+37.3933333333333%7C-6.93388888888889%2C+37.3933333333333%7C-6.93388888888889%2C+37.3916666666667%7C-6.9325%2C+37.3916666666667&zoom=10" width="800" height="600"/>

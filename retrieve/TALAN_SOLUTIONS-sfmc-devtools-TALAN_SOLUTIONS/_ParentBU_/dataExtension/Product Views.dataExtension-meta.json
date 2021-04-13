@@ -1,0 +1,62 @@
+{
+    "CreatedDate": "2018-09-11T08:06:06.237",
+    "CustomerKey": "Product Views",
+    "Name": "Product Views",
+    "Description": "Product Views",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "DataRetentionPeriodUnitOfMeasure": "4",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Product View ID",
+            "DefaultValue": "",
+            "MaxLength": "256",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Customer ID",
+            "DefaultValue": "",
+            "MaxLength": "256",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Product ID",
+            "DefaultValue": "",
+            "MaxLength": "256",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "First View Date",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Last View Date",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Total Views",
+            "DefaultValue": "0",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Number"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Test template Shopping Cart"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Extract Audit Trail Activity Log",
+    "customerKey": "25398d7a-a8c7-4319-9f9d-4402fa7a1666",
+    "createdDate": "2021-03-02T04:23:26.61",
+    "modifiedDate": "2021-03-02T04:23:26.61",
+    "fileSpec": "Extract_Audit_Trail_Activity_Log_%%Year%%_%%Month%%_%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

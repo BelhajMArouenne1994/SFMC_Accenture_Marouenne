@@ -1,0 +1,34 @@
+{
+    "name": "Extract Trail Acces Log",
+    "key": "B2C3F228-6F03-4E8B-B615-BDA4CA768003",
+    "fileSpec": "Extract_Trail_Acces_Log_%%Year%%_%%Month%%_%%Day%%.csv",
+    "createdDate": "2021-03-02T02:48:52.66",
+    "modifiedDate": "2021-03-02T04:52:52.57",
+    "createdBy": 715278447,
+    "modifiedBy": 715278447,
+    "intervalType": 6,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ApplyTimeZone",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "ConvertToASCII",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "IncludeHeader",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "Timezone",
+            "type": "integer",
+            "value": "7"
+        }
+    ],
+    "r__dataExtractType_name": "Audit Trail Access Log"
+}

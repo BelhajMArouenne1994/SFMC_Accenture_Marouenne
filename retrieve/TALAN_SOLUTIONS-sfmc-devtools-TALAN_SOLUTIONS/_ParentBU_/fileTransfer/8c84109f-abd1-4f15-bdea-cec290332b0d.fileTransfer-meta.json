@@ -1,0 +1,16 @@
+{
+    "name": "Extract Extract Audit Trail Activity Log",
+    "customerKey": "8c84109f-abd1-4f15-bdea-cec290332b0d",
+    "createdDate": "2021-03-02T04:22:57.653",
+    "modifiedDate": "2021-03-02T04:22:57.653",
+    "fileSpec": "Extract_Audit_Trail_Activity_Log_%%Year%%_%%Month%%_%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "Talend"
+}

@@ -1,0 +1,33 @@
+{
+    "CreatedDate": "2021-02-17T04:12:44.137",
+    "CustomerKey": "50709D44-75E6-44DA-A104-C4F9F14019C9",
+    "Name": "Test_Data_Extension_2",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "ID_Segment",
+            "Scale": "0",
+            "DefaultValue": "",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Number"
+        },
+        {
+            "Name": "Segment Membership",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

@@ -1,0 +1,93 @@
+{
+    "customerKey": "66dde006-3035-4b41-a9db-a7fd291f2e3f",
+    "assetType": {
+        "name": "dynamicblock",
+        "displayName": "Dynamic Block"
+    },
+    "fileProperties": {
+        "fileName": "terst"
+    },
+    "name": "terst",
+    "owner": {
+        "email": "amal.bahrini@talan.com",
+        "name": "Amal Bahrini"
+    },
+    "createdDate": "2019-11-05T08:05:27.723-06:00",
+    "createdBy": {
+        "email": "amal.bahrini@talan.com",
+        "name": "Amal Bahrini"
+    },
+    "modifiedDate": "2019-11-05T08:05:37.723-06:00",
+    "modifiedBy": {
+        "email": "amal.bahrini@talan.com",
+        "name": "Amal Bahrini"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\">%%[IF ((IndexOf([Email], \"gmail\") > 0)) THEN]%%\n%%=BeginImpressionRegion(\"__Rule_1__20496218.jpg\")=%%\n<img src=\"https://image.s10.sfmc-content.com/lib/fe33157075640774721577/m/1/cae368ef-48e7-45b4-beca-35fa7d5269a5.jpg\" data-assetid=\"95240\" alt=\"20496218.jpg\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ELSE]%%\n%%=BeginImpressionRegion(\"__Default_Content__test\")=%%\n%%=ContentBlockById(\"97892\")=%%\n%%=EndImpressionRegion()=%%\n%%[ENDIF]%%</td></tr></table>",
+    "design": "",
+    "superContent": "<div data-marker=\"wrapper\" style=\"\" class=\"stylingblock-content-wrapper\">%%=ContentBlockbyID(\"97892\")=%%</div>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        },
+        "options": {
+            "dynamicContent": {
+                "views": {
+                    "html": {
+                        "name": "",
+                        "defaultContent": {
+                            "id": 97892,
+                            "name": "test",
+                            "type": {
+                                "id": 195,
+                                "name": "freeformblock",
+                                "displayName": "Free Form Block"
+                            },
+                            "textContent": ""
+                        },
+                        "dataSource": {
+                            "type": "profileattribute",
+                            "name": "Profile Attributes"
+                        },
+                        "variants": [
+                            {
+                                "name": "Rule 1",
+                                "content": {
+                                    "id": 95240,
+                                    "name": "20496218.jpg",
+                                    "textContent": "<img src=\"https://image.s10.sfmc-content.com/lib/fe33157075640774721577/m/1/cae368ef-48e7-45b4-beca-35fa7d5269a5.jpg\" data-assetid=\"95240\" alt=\"20496218.jpg\" width=\"100%\" height=\"auto\" />"
+                                },
+                                "expression": {
+                                    "operand": "OR",
+                                    "conditions": [
+                                        {
+                                            "personalization": "Email",
+                                            "dataType": "text",
+                                            "operator": "Contains",
+                                            "value": "gmail",
+                                            "name": "Email"
+                                        }
+                                    ]
+                                },
+                                "IRTDefault": "Rule_1__20496218.jpg",
+                                "customIRTName": ""
+                            }
+                        ],
+                        "blockPosition": "",
+                        "defaultContentRuleName": "Default Content"
+                    }
+                }
+            },
+            "blockType": "reference",
+            "dataSourceSchema": []
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

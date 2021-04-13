@@ -1,0 +1,28 @@
+{
+    "name": "MAJ socle LEAD",
+    "description": "",
+    "key": "205d4584-7445-0478-3596-3f9bf6d857a1",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 2,
+        "startDate": "2020-03-06T16:05:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=HOURLY;UNTIL=20790606T080000;INTERVAL=1",
+        "timezoneName": "Romance Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Lead",
+                    "displayOrder": 1,
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

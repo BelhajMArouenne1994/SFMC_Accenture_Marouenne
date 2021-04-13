@@ -1,0 +1,47 @@
+{
+    "customerKey": "e5feb201-4593-4a4f-9ef1-d042ff0d5079",
+    "assetType": {
+        "name": "buttonblock",
+        "displayName": "Button Block"
+    },
+    "fileProperties": {
+        "fileName": "click button"
+    },
+    "name": "click button",
+    "owner": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "createdDate": "2020-10-13T07:08:22.247-06:00",
+    "createdBy": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "modifiedDate": "2020-10-13T07:08:25.26-06:00",
+    "modifiedBy": {
+        "email": "emna.bouali@talan.com",
+        "name": "Emna Bouali"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: transparent; border: 1px solid transparent; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 0px; \" class=\"stylingblock-content-wrapper camarker-inner\"><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tr><td align=\"center\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"innertd buttonblock\" bgcolor=\"#F2E5D7\" style=\" border-radius: 25px; -moz-border-radius: 25px; -webkit-border-radius: 25px; background-color: #F2E5D7;\"><a target=\"_blank\" class=\"buttonstyles\" style=\" font-size: 16px; font-family: Arial, Helvetica, sans-serif; color: #FF7F00; text-align: center; text-decoration: none; display: block; background-color: #F2E5D7; border: 1px solid #FFFFFF; padding: 15px; border-radius: 25px; -moz-border-radius: 25px; -webkit-border-radius: 25px;\" href=\"http://\" title=\"\" alias=\"\" conversion=\"false\" data-linkto=\"http://\">CLICK</a></td></tr></table></td></tr></table></td></tr></table>",
+    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: transparent; border: 1px solid transparent; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 0px; \" class=\"stylingblock-content-wrapper camarker-inner\"></td></tr></table>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true,
+                "columnOrder": "ltr"
+            },
+            "styling": {
+                "background-color": "transparent",
+                "margin": "0px",
+                "padding": "0px",
+                "border": "1px solid transparent"
+            }
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

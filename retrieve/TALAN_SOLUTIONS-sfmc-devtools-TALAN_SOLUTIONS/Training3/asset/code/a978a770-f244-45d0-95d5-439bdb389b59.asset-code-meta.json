@@ -1,0 +1,30 @@
+{
+    "customerKey": "a978a770-f244-45d0-95d5-439bdb389b59",
+    "assetType": {
+        "name": "html",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "Welcome-Email-Template.html",
+        "extension": "html",
+        "fileSize": 21592,
+        "fileCreatedDate": "2020-11-11T04:36:20.2338396-06:00"
+    },
+    "name": "Welcome-Email-Template.html",
+    "createdDate": "2020-11-11T04:36:20.233-06:00",
+    "createdBy": {
+        "email": "marouenne.belhaj@talan.com",
+        "name": "Marouenne Belhaj"
+    },
+    "modifiedDate": "2020-11-11T04:36:20.233-06:00",
+    "modifiedBy": {
+        "email": "marouenne.belhaj@talan.com",
+        "name": "Marouenne Belhaj"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Test Marwen"
+}
