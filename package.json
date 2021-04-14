@@ -1,34 +1,34 @@
 {
-  "name": "SFMC_Accenture_Marouenne",
-  "scripts": {
-    "build": "sfmc-build all",
-    "build-cp": "sfmc-build cloudPages",
-    "build-email": "sfmc-build emails",
-    "upgrade": "npm-check --update",
-    "eslint-check": "eslint"
-  },
-  "author": "Accenture",
-  "license": "UNLICENSED",
-  "description": "This project relies on **Accenture SFMC DevTools**!",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BelhajMArouenne1994/SFMC_Accenture_Marouenne.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/BelhajMArouenne1994/SFMC_Accenture_Marouenne/issues"
-  },
-  "homepage": "https://github.com/BelhajMArouenne1994/SFMC_Accenture_Marouenne#readme",
-  "devDependencies": {
-    "eslint": "^7.24.0",
-    "eslint-config-prettier": "^8.2.0",
-    "eslint-config-ssjs": "^1.1.11",
-    "eslint-plugin-jsdoc": "^32.3.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "npm-check": "^5.9.2",
-    "prettier": "^2.2.1",
-    "sfmc-boilerplate": "^1.2.6"
-  }
+    "name": "SFMC_Accenture_Marouenne",
+    "scripts": {
+        "build": "sfmc-build all",
+        "build-cp": "sfmc-build cloudPages",
+        "build-email": "sfmc-build emails",
+        "upgrade": "npm-check --update",
+        "eslint-check": "eslint"
+    },
+    "author": "Accenture",
+    "license": "UNLICENSED",
+    "description": "This project relies on **Accenture SFMC DevTools**!",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BelhajMArouenne1994/SFMC_Accenture_Marouenne.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/BelhajMArouenne1994/SFMC_Accenture_Marouenne/issues"
+    },
+    "homepage": "https://github.com/BelhajMArouenne1994/SFMC_Accenture_Marouenne#readme",
+    "devDependencies": {
+        "eslint": "^7.24.0",
+        "eslint-config-prettier": "^8.2.0",
+        "eslint-config-ssjs": "^1.1.11",
+        "eslint-plugin-jsdoc": "^32.3.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "npm-check": "^5.9.2",
+        "prettier": "2.2.1",
+        "sfmc-boilerplate": "^1.2.6"
+    }
 }

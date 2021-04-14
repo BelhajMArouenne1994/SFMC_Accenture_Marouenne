@@ -3,7 +3,7 @@
 > **Legend**
 >
 > <hr>
->
+>mcdev selectTypes --debug
 > **[Role Name]** = System Default Role
 >
 > **Role Name** = Custom Role
@@ -18,7 +18,7 @@
 
 ## Audience Builder
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
 | General > Admin | • | + | • | • | • | • |
@@ -40,14 +40,14 @@
 
 ## SocialEngage
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Access | • | + | • | • | • | • |
 | Perform Workgroup Leader Role | • | + | • | • | • | • |
 
 ## Interactive Marketing Hub
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Campaigns > General > Access | • | • | • | • | • | • |
 | Campaigns > General > Delete | • | + | • | • | • | • |
@@ -82,19 +82,19 @@
 
 ## Marketo
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Access | • | + | • | • | • | • |
 
 ## DeveloperApp
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Access | • | + | • | • | • | • |
 
 ## MobileConnect
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
 | General > Administer SMS Channel | • | + | • | • | • | • |
@@ -106,7 +106,7 @@
 
 ## Automation Studio
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
 | Automation > Create | • | + | • | • | • | • |
@@ -118,7 +118,7 @@
 
 ## Email
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Content > Email > Create | + | + | • | • | • | • |
 | Content > Email > View | + | + | • | • | • | • |
@@ -446,13 +446,13 @@
 | Interactions > Programs > Stop | • | + | • | • | • | • |
 | Interactions > Programs > Schedule | • | + | • | • | • | • |
 | Interactions > Programs > View Activity | • | + | • | • | • | • |
-| Tracking > View | • | + | • | • | + | + |
-| Tracking > Update | • | + | • | • | + | + |
-| Tracking > Delete | • | + | • | • | + | + |
-| Tracking > Compare Email Sends | • | + | • | • | + | + |
-| Tracking > Enhanced Tracking | • | + | • | • | + | + |
-| Tracking > View Subscriber Details | • | + | • | • | + | + |
-| Tracking > Export Subscribers | • | + | • | • | + | + |
+| Tracking > View | • | + | + | • | • | + |
+| Tracking > Update | • | + | + | • | • | + |
+| Tracking > Delete | • | + | + | • | • | + |
+| Tracking > Compare Email Sends | • | + | + | • | • | + |
+| Tracking > Enhanced Tracking | • | + | + | • | • | + |
+| Tracking > View Subscriber Details | • | + | + | • | • | + |
+| Tracking > Export Subscribers | • | + | + | • | • | + |
 | Reports > View Administrative Reports | • | + | • | • | • | • |
 | Reports > Run Report | • | + | • | • | • | • |
 | Admin > API Access > WebService API | • | + | • | • | • | • |
@@ -524,48 +524,48 @@
 | Integrations > Salesforce Send > Update | • | • | • | • | • | • |
 | Integrations > Salesforce Send > Schedule | • | • | • | • | • | • |
 | Integrations > Salesforce Send > Search | • | • | • | • | • | • |
-| Shared Folders > Shared Email Folders > View | • | + | + | • | • | • |
-| Shared Folders > Shared Email Folders > Move | • | + | + | • | • | • |
-| Shared Folders > Shared Email Folders > Delete | • | + | + | • | • | • |
-| Shared Folders > Shared Email Folders > Rename | • | + | + | • | • | • |
-| Shared Folders > Shared Email Folders > Create Sub Folder | • | + | + | • | • | • |
-| Shared Folders > Shared Email Folders > Share | • | + | + | • | • | • |
-| Shared Folders > Shared Template Folders > View | • | + | + | • | • | • |
-| Shared Folders > Shared Template Folders > Move | • | + | + | • | • | • |
-| Shared Folders > Shared Template Folders > Delete | • | + | + | • | • | • |
-| Shared Folders > Shared Template Folders > Rename | • | + | + | • | • | • |
-| Shared Folders > Shared Template Folders > Create Sub Folder | • | + | + | • | • | • |
-| Shared Folders > Shared Template Folders > Share | • | + | + | • | • | • |
-| Shared Folders > Shared Portfolio Folders > View | • | + | + | • | • | • |
-| Shared Folders > Shared Portfolio Folders > Move | • | + | + | • | • | • |
-| Shared Folders > Shared Portfolio Folders > Delete | • | + | + | • | • | • |
-| Shared Folders > Shared Portfolio Folders > Rename | • | + | + | • | • | • |
-| Shared Folders > Shared Portfolio Folders > Create Sub Folder | • | + | + | • | • | • |
-| Shared Folders > Shared Portfolio Folders > Share | • | + | + | • | • | • |
-| Shared Folders > Shared Content Area Folders > View | • | + | + | • | • | • |
-| Shared Folders > Shared Content Area Folders > Move | • | + | + | • | • | • |
-| Shared Folders > Shared Content Area Folders > Delete | • | + | + | • | • | • |
-| Shared Folders > Shared Content Area Folders > Rename | • | + | + | • | • | • |
-| Shared Folders > Shared Content Area Folders > Create Sub Folder | • | + | + | • | • | • |
-| Shared Folders > Shared Content Area Folders > Share | • | + | + | • | • | • |
-| Shared Folders > Shared Data Extension Folders > View | • | + | • | + | • | • |
-| Shared Folders > Shared Data Extension Folders > Move | • | + | • | + | • | • |
-| Shared Folders > Shared Data Extension Folders > Delete | • | + | • | + | • | • |
-| Shared Folders > Shared Data Extension Folders > Rename | • | + | • | + | • | • |
-| Shared Folders > Shared Data Extension Folders > Create Sub Folder | • | + | • | + | • | • |
-| Shared Folders > Shared Data Extension Folders > Share | • | + | • | + | • | • |
-| Shared Folders > Shared Publication List Folders > View | • | + | • | + | • | • |
-| Shared Folders > Shared Publication List Folders > Move | • | + | • | + | • | • |
-| Shared Folders > Shared Publication List Folders > Delete | • | + | • | + | • | • |
-| Shared Folders > Shared Publication List Folders > Rename | • | + | • | + | • | • |
-| Shared Folders > Shared Publication List Folders > Create Sub Folder | • | + | • | + | • | • |
-| Shared Folders > Shared Publication List Folders > Share | • | + | • | + | • | • |
-| Shared Folders > Shared Suppression List Folders > View | • | + | • | + | • | • |
-| Shared Folders > Shared Suppression List Folders > Move | • | + | • | + | • | • |
-| Shared Folders > Shared Suppression List Folders > Delete | • | + | • | + | • | • |
-| Shared Folders > Shared Suppression List Folders > Rename | • | + | • | + | • | • |
-| Shared Folders > Shared Suppression List Folders > Create Sub Folder | • | + | • | + | • | • |
-| Shared Folders > Shared Suppression List Folders > Share | • | + | • | + | • | • |
+| Shared Folders > Shared Email Folders > View | • | + | • | + | • | • |
+| Shared Folders > Shared Email Folders > Move | • | + | • | + | • | • |
+| Shared Folders > Shared Email Folders > Delete | • | + | • | + | • | • |
+| Shared Folders > Shared Email Folders > Rename | • | + | • | + | • | • |
+| Shared Folders > Shared Email Folders > Create Sub Folder | • | + | • | + | • | • |
+| Shared Folders > Shared Email Folders > Share | • | + | • | + | • | • |
+| Shared Folders > Shared Template Folders > View | • | + | • | + | • | • |
+| Shared Folders > Shared Template Folders > Move | • | + | • | + | • | • |
+| Shared Folders > Shared Template Folders > Delete | • | + | • | + | • | • |
+| Shared Folders > Shared Template Folders > Rename | • | + | • | + | • | • |
+| Shared Folders > Shared Template Folders > Create Sub Folder | • | + | • | + | • | • |
+| Shared Folders > Shared Template Folders > Share | • | + | • | + | • | • |
+| Shared Folders > Shared Portfolio Folders > View | • | + | • | + | • | • |
+| Shared Folders > Shared Portfolio Folders > Move | • | + | • | + | • | • |
+| Shared Folders > Shared Portfolio Folders > Delete | • | + | • | + | • | • |
+| Shared Folders > Shared Portfolio Folders > Rename | • | + | • | + | • | • |
+| Shared Folders > Shared Portfolio Folders > Create Sub Folder | • | + | • | + | • | • |
+| Shared Folders > Shared Portfolio Folders > Share | • | + | • | + | • | • |
+| Shared Folders > Shared Content Area Folders > View | • | + | • | + | • | • |
+| Shared Folders > Shared Content Area Folders > Move | • | + | • | + | • | • |
+| Shared Folders > Shared Content Area Folders > Delete | • | + | • | + | • | • |
+| Shared Folders > Shared Content Area Folders > Rename | • | + | • | + | • | • |
+| Shared Folders > Shared Content Area Folders > Create Sub Folder | • | + | • | + | • | • |
+| Shared Folders > Shared Content Area Folders > Share | • | + | • | + | • | • |
+| Shared Folders > Shared Data Extension Folders > View | • | + | • | • | + | • |
+| Shared Folders > Shared Data Extension Folders > Move | • | + | • | • | + | • |
+| Shared Folders > Shared Data Extension Folders > Delete | • | + | • | • | + | • |
+| Shared Folders > Shared Data Extension Folders > Rename | • | + | • | • | + | • |
+| Shared Folders > Shared Data Extension Folders > Create Sub Folder | • | + | • | • | + | • |
+| Shared Folders > Shared Data Extension Folders > Share | • | + | • | • | + | • |
+| Shared Folders > Shared Publication List Folders > View | • | + | • | • | + | • |
+| Shared Folders > Shared Publication List Folders > Move | • | + | • | • | + | • |
+| Shared Folders > Shared Publication List Folders > Delete | • | + | • | • | + | • |
+| Shared Folders > Shared Publication List Folders > Rename | • | + | • | • | + | • |
+| Shared Folders > Shared Publication List Folders > Create Sub Folder | • | + | • | • | + | • |
+| Shared Folders > Shared Publication List Folders > Share | • | + | • | • | + | • |
+| Shared Folders > Shared Suppression List Folders > View | • | + | • | • | + | • |
+| Shared Folders > Shared Suppression List Folders > Move | • | + | • | • | + | • |
+| Shared Folders > Shared Suppression List Folders > Delete | • | + | • | • | + | • |
+| Shared Folders > Shared Suppression List Folders > Rename | • | + | • | • | + | • |
+| Shared Folders > Shared Suppression List Folders > Create Sub Folder | • | + | • | • | + | • |
+| Shared Folders > Shared Suppression List Folders > Share | • | + | • | • | + | • |
 | Shared Folders > Shared Salesforce Data Extension Folders > View | • | + | • | • | • | • |
 | Shared Folders > Shared Salesforce Data Extension Folders > Move | • | + | • | • | • | • |
 | Shared Folders > Shared Salesforce Data Extension Folders > Delete | • | + | • | • | • | • |
@@ -576,7 +576,7 @@
 | Authentication (Requires Enhanced Authentication) > SOAP Web Service Interface > SecPol 2; UsernameForCertificate (overrides policy 1) | • | + | • | • | • | • |
 | Authentication (Requires Enhanced Authentication) > SOAP Web Service Interface > SecPol 3; SecPol 2 + Client Cert* (overrides policy 2) | • | + | • | • | • | • |
 | Authentication (Requires Enhanced Authentication) > SOAP Web Service Interface > SecPol 4; Username Token + Client and Server Signature (override | • | + | • | • | • | • |
-| General > Access | • | + | + | • | • | • |
+| General > Access | • | + | • | + | • | • |
 | A/B Testing > Create/Copy > Subject Tests | • | + | • | • | • | • |
 | A/B Testing > Create/Copy > Email Tests | • | + | • | • | • | • |
 | A/B Testing > Create/Copy > Content Tests | • | + | • | • | • | • |
@@ -597,7 +597,7 @@
 
 ## Discover
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Access | • | + | • | • | • | • |
 | View | • | + | • | • | • | • |
@@ -608,7 +608,7 @@
 
 ## CampaignAnalytics
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | View | • | + | • | • | • | • |
 | Share | • | + | • | • | • | • |
@@ -618,7 +618,7 @@
 
 ## Administration
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Users > Create | • | • | • | • | • | • |
 | Users > View | • | • | • | • | • | • |
@@ -655,17 +655,17 @@
 
 ## Audience Builder Enabler
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Access | • | + | • | • | • | • |
 
 ## Xpress
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
-| Subscribers > CreateEditDeleteImport | • | + | • | + | • | • |
-| Subscribers > View | • | + | • | + | • | • |
+| Subscribers > CreateEditDeleteImport | • | + | • | • | + | • |
+| Subscribers > View | • | + | • | • | + | • |
 | Lists > Create | • | + | • | • | • | • |
 | Lists > Delete | • | + | • | • | • | • |
 | Email > CreateandEdit | • | + | • | • | • | • |
@@ -685,14 +685,14 @@
 
 ## Approvals (Email)
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Approve and Decline | • | + | • | • | • | • |
 | Bypass Approval | • | + | • | • | • | • |
 
 ## Distributed Sending
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | + |
 | Distributed Sending Content > Edit HTML | • | + | • | • | • | • |
@@ -700,7 +700,7 @@
 
 ## MobilePush
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
 | General > Administer MobilePush | • | + | • | • | • | • |
@@ -713,7 +713,7 @@
 
 ## Journey Builder
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access, View | • | + | • | • | • | • |
 | Automation > Create, Edit | • | + | • | • | • | • |
@@ -724,7 +724,7 @@
 
 ## Reports
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Run | • | • | • | • | • | • |
 | General > Delete | • | • | • | • | • | • |
@@ -743,7 +743,7 @@
 
 ## HubExchange
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | View | • | + | • | • | • | • |
 | Update | • | + | • | • | • | • |
@@ -753,13 +753,13 @@
 
 ## AdobeAnalytics
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | View | • | + | • | • | • | • |
 
 ## Contact Builder
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Administer Contact Data Model | • | + | • | • | • | • |
 | View All Contacts | • | + | • | • | • | • |
@@ -768,7 +768,7 @@
 
 ## Tags
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Create | • | + | • | • | • | • |
 | Edit | • | + | • | • | • | • |
@@ -778,26 +778,26 @@
 
 ## tmMessenger
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
 | General > Admin Access | • | + | • | • | • | • |
 
 ## LEMI
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
 
 ## Extension Manager
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Access | • | + | • | • | • | • |
 
 ## GroupConnect
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
 | General > Administer GroupConnect | • | + | • | • | • | • |
@@ -813,7 +813,7 @@
 
 ## Transactional Sending
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
 | Overview > View | • | + | • | • | • | • |
@@ -826,15 +826,15 @@
 | Messages > General > Create | • | + | • | • | • | • |
 | Messages > General > Update | • | + | • | • | • | • |
 | Messages > General > Delete | • | + | • | • | • | • |
-| Messages > Tracking > View | • | + | • | • | + | • |
-| Messages > Tracking > Export | • | + | • | • | + | • |
+| Messages > Tracking > View | • | + | + | • | • | • |
+| Messages > Tracking > Export | • | + | + | • | • | • |
 | Messages > State Management > Pause/Resume | • | + | • | • | • | • |
 | Messages > State Management > Publish | • | + | • | • | • | • |
 | Messages > State Management > Stop/Restart | • | + | • | • | • | • |
 
 ## CloudPages
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Report Access | • | + | • | • | • | • |
 | General > Access | • | + | • | • | • | • |
@@ -846,7 +846,7 @@
 
 ## Content Builder
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Assets > Create | + | + | • | • | • | • |
 | Assets > Upload | + | + | • | • | • | • |
@@ -878,14 +878,14 @@
 
 ## Email Send Wizard
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access | • | + | • | • | • | • |
-| Content > Subject Symbols | • | + | + | • | • | • |
-| Content > Preheader | • | + | + | • | • | • |
-| Content > Campaign | • | + | + | • | • | • |
-| Content > Send Classificiation | • | + | + | • | • | • |
-| Content > Account From and Reply | • | + | + | • | • | • |
+| Content > Subject Symbols | • | + | • | + | • | • |
+| Content > Preheader | • | + | • | + | • | • |
+| Content > Campaign | • | + | • | + | • | • |
+| Content > Send Classificiation | • | + | • | + | • | • |
+| Content > Account From and Reply | • | + | • | + | • | • |
 | Audience > Publication List | • | + | • | • | • | • |
 | Audience > Subscriber Lists | • | + | • | • | • | • |
 | Audience > Data Extensions | • | + | • | • | • | • |
@@ -904,7 +904,7 @@
 
 ## Workflows and Approvals
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Workflow Teams > Create, Edit and Copy | • | + | • | • | • | • |
 | Workflow Teams > Delete | • | + | • | • | • | • |
@@ -927,7 +927,7 @@
 
 ## Advertising Studio Audiences
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Delete Audience | • | + | • | • | • | • |
 | General > Add/Delete Ad Account | • | + | • | • | • | • |
@@ -935,7 +935,7 @@
 
 ## Analytics
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Reporting > View | • | + | • | • | • | • |
 | Google Analytics > Administration > View | • | + | • | • | • | • |
@@ -951,7 +951,7 @@
 
 ## Salesforce DMP
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Audiences > Create | • | + | • | • | • | • |
 | Audiences > Edit | • | + | • | • | • | • |
@@ -961,7 +961,7 @@
 
 ## Interaction Studio - Legacy
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Access > Access (NA) | • | + | • | • | • | • |
 | Access > Access (EU) | • | + | • | • | • | • |
@@ -973,7 +973,7 @@
 
 ## Event Notifications
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Callbacks > Create | • | + | • | • | • | • |
 | Callbacks > View | • | + | • | • | • | • |
@@ -986,25 +986,25 @@
 
 ## Audit Logging
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Administer Audit Logging | • | + | • | • | • | • |
 
 ## Datorama
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Enable Datorama Integration | • | + | • | • | • | • |
 
 ## DataFactoryUtility
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Configuration | • | + | • | • | • | • |
 
 ## Database Encryption
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | View | • | • | • | • | • | • |
 | Rotate Key | • | • | • | • | • | • |
@@ -1012,14 +1012,14 @@
 
 ## Interaction Studio
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | Access | • | • | • | • | • | • |
 | Admin | • | • | • | • | • | • |
 
 ## Datorama Reports
 
-| Permission | TemplateAgency | [Administrateur] | [Content Creator] | [Data Manager] | [Analyst] | [Distributed Sending User] |
+| Permission | TemplateAgency | [Administrateur] | [Analyst] | [Content Creator] | [Data Manager] | [Distributed Sending User] |
 | --- | --- | --- | --- | --- | --- | --- |
 | General > Access, View and Export | • | • | • | • | • | • |
 | General > Schedule | • | • | • | • | • | • |

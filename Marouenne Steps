@@ -1,0 +1,55 @@
+### Step 1 :    Creer le projet ###
+
+Remarques : Dans le projet de CELINE,
+                Les changements concernent princialment les Code Blocks et les Code Snippets
+
+                    asset-code
+                    asset-block
+                    contentArea (Depreceated)
+********************************************************************************************************************
+
+### Step 2 :    Retrieve Changes in CELINE GIT ###
+
+Retrieves metadata from the specified Business Unit.
+                npx mcdev retrieve  [business unit] [metadata type]
+                                    ///////////////////////////////
+                                    [business unit] =   Nom-du-project/BU-Name      =>
+                                                            TALAN_SOLUTIONS-sfmc-devtools-TALAN_SOLUTIONS/_ParentBU_
+                                                            SFMC-CELINE/UAT ou SFMC-CELINE/PRD
+                                    ////////////////////////////////////////////////////////////////////////////////
+                                    [metadata type] =
+                                                        asset-code
+                                                        asset-block
+                                                            ...
+                                                        asset-template
+                                                        contentArea (Depreceated)
+            /////////////////////////////////////////////////////////////////////
+
+            npx mcdev retrieve "TALAN_SOLUTIONS-sfmc-devtools-TALAN_SOLUTIONS/_ParentBU_" asset-code
+            npx mcdev retrieve "TALAN_SOLUTIONS-sfmc-devtools-TALAN_SOLUTIONS/_ParentBU_" asset-block
+********************************************************************************************************************
+
+
+Step 3 :    Faire les changements ensuite les deployés dans Marketing Cloud
+            Deploys metadata to the specified Business Unit.
+            Only metadata that you copied into the deploy directory will be deployed.
+                Please keek in mind that the folder structure needs to be similar to what the retrieve command creates in the retrieve folder,
+                including the credentials and Business Unit name.
+
+                npx mcdev deploy    [business unit] [metadata type]
+                                    ///////////////////////////////
+                                    [business unit] =   Nom-du-project/BU-Name      =>
+                                                            TALAN_SOLUTIONS-sfmc-devtools-TALAN_SOLUTIONS/_ParentBU_
+                                                            SFMC-CELINE/UAT ou SFMC-CELINE/PRD
+                                    ////////////////////////////////////////////////////////////////////////////////
+                                    [metadata type] =
+                                                        asset-code
+                                                        asset-block
+                                                            ...
+                                                        asset-template
+                                                        contentArea (Depreceated)
+            /////////////////////////////////////////////////////////////////////
+
+            npx mcdev deploy "TALAN_SOLUTIONS-sfmc-devtools-TALAN_SOLUTIONS/_ParentBU_" asset-code
+            npx mcdev deploy "TALAN_SOLUTIONS-sfmc-devtools-TALAN_SOLUTIONS/_ParentBU_" asset-block
+********************************************************************************************************************
